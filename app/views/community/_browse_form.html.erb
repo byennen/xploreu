@@ -1,0 +1,29 @@
+<% form_tag({ :action => "browse" }, :method => "get") do %>
+<fieldset>
+  <legend>Browse</legend> 
+  <div class="form_row">
+    <label for="age">Age:</label> 
+    <%= text_field_tag "min_age", params[:min_age], :size => 2 %>
+    &ndash;
+    <%= text_field_tag "max_age", params[:max_age], :size => 2 %>
+  </div>
+  <div class="form_row">
+    <label for="gender">Gender:</label> 
+    <%= radio_button_tag :gender, "Male", 
+                         params[:gender] == 'Male', 
+                         :id => "Male" %>Male
+    <%= radio_button_tag :gender, "Female",
+                         params[:gender] == 'Female', 
+                         :id => "Female" %>Female
+  </div>
+  <div class="form_row">
+    <label for="location">Location:</label> 
+    Within 
+    <%= text_field_tag "miles", params[:miles], :size => 4 %>
+    miles from zip code: 
+    <%= text_field_tag "zip_code", params[:zip_code], 
+                       :size => Spec::ZIP_CODE_LENGTH %> 
+  </div>
+  <%= submit_tag "Browse", :class => "submit" %> 
+</fieldset>
+<% end %>

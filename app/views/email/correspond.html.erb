@@ -1,0 +1,17 @@
+<% form_for :message do |form| %>
+<fieldset>
+  <legend><%= @title %></legend>
+  
+  <%= error_messages_for 'message' %>
+  
+  <div class="form_row">
+    <label for="subject">Subject:</label>
+    <%= form.text_field "subject", :size => 60 %>
+  </div>
+  <div class="form_row">
+    <label for="subject">Body:</label>
+    <%= form.text_area "body", :rows => 20, :cols => 60 %>
+  </div>
+  <%= submit_tag "Send", :class => "submit" %> 
+</fieldset>
+<% end %>

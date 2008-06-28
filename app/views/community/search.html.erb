@@ -1,0 +1,6 @@
+<%= render :partial => "search_form" %>
+<% if @invalid %>
+<p>Invalid character in search.</p>
+<% end %>
+<%= render :partial => "result_summary" %>
+<%= render :partial => "user_table" %>

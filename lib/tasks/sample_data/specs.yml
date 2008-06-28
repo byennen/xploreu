@@ -1,0 +1,1422 @@
+BAmes:
+  user_id: 1000
+  first_name: Bruce
+  last_name: Ames
+  gender: Male
+  birthdate: 1927-01-01 
+  zip_code: 92101
+JAndelin:
+  user_id: 1001
+  first_name: John
+  last_name: Andelin
+  gender: Male
+  birthdate: 1941-01-01 
+  zip_code: 92133
+MArens:
+  user_id: 1002
+  first_name: Moshe
+  last_name: Arens
+  gender: Male
+  birthdate: 1930-01-01 
+  zip_code: 92166
+HBabcock:
+  user_id: 1003
+  first_name: Horace
+  last_name: Babcock
+  gender: Male
+  birthdate: 1944-01-01 
+  zip_code: 92198
+WBallhaus:
+  user_id: 1004
+  first_name: William
+  last_name: Ballhaus
+  gender: Male
+  birthdate: 1928-01-01 
+  zip_code: 92231
+ABeckman:
+  user_id: 1005
+  first_name: Arnold
+  last_name: Beckman
+  gender: Male
+  birthdate: 1934-01-01 
+  zip_code: 92264
+FBorman:
+  user_id: 1006
+  first_name: Frank
+  last_name: Borman
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 92296
+RBower:
+  user_id: 1007
+  first_name: Robert
+  last_name: Bower
+  gender: Male
+  birthdate: 1951-01-01 
+  zip_code: 92329
+JBoyd:
+  user_id: 1008
+  first_name: James
+  last_name: Boyd
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 92361
+LBrewer:
+  user_id: 1009
+  first_name: Leo
+  last_name: Brewer
+  gender: Male
+  birthdate: 1924-01-01 
+  zip_code: 92394
+RBrewer:
+  user_id: 1010
+  first_name: Richard
+  last_name: Brewer
+  gender: Male
+  birthdate: 1944-01-01 
+  zip_code: 92427
+ABryson:
+  user_id: 1011
+  first_name: Arthur
+  last_name: Bryson
+  gender: Male
+  birthdate: 1941-01-01 
+  zip_code: 92459
+CBurton:
+  user_id: 1012
+  first_name: Clifford
+  last_name: Burton
+  gender: Male
+  birthdate: 1924-01-01 
+  zip_code: 92492
+FCapra:
+  user_id: 1013
+  first_name: Frank
+  last_name: Capra
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 92524
+WCarroll:
+  user_id: 1014
+  first_name: William
+  last_name: Carroll
+  gender: Male
+  birthdate: 1946-01-01 
+  zip_code: 92557
+MCarus:
+  user_id: 1015
+  first_name: M.
+  last_name: Carus
+  gender: Male
+  birthdate: 1954-01-01 
+  zip_code: 92590
+MChang:
+  user_id: 1016
+  first_name: Milton
+  last_name: Chang
+  gender: Male
+  birthdate: 1952-01-01 
+  zip_code: 92622
+JCharyk:
+  user_id: 1017
+  first_name: Joseph
+  last_name: Charyk
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 92655
+HChenery:
+  user_id: 1018
+  first_name: Hollis
+  last_name: Chenery
+  gender: Male
+  birthdate: 1931-01-01 
+  zip_code: 92687
+AChester:
+  user_id: 1019
+  first_name: Arthur
+  last_name: Chester
+  gender: Male
+  birthdate: 1947-01-01 
+  zip_code: 92720
+PChou:
+  user_id: 1020
+  first_name: Pei-Yuan
+  last_name: Chou
+  gender: Male
+  birthdate: 1935-01-01 
+  zip_code: 92753
+EClark:
+  user_id: 1021
+  first_name: Earnest
+  last_name: Clark
+  gender: Male
+  birthdate: 1931-01-01 
+  zip_code: 92785
+FClauser:
+  user_id: 1022
+  first_name: Francis
+  last_name: Clauser
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 92818
+RClough:
+  user_id: 1023
+  first_name: Ray
+  last_name: Clough
+  gender: Male
+  birthdate: 1946-01-01 
+  zip_code: 92850
+JCole:
+  user_id: 1024
+  first_name: Julian
+  last_name: Cole
+  gender: Male
+  birthdate: 1921-01-01 
+  zip_code: 92883
+SColeman:
+  user_id: 1025
+  first_name: Sidney
+  last_name: Coleman
+  gender: Male
+  birthdate: 1940-01-01 
+  zip_code: 92916
+HColvin:
+  user_id: 1026
+  first_name: Hugh
+  last_name: Colvin
+  gender: Male
+  birthdate: 1940-01-01 
+  zip_code: 92948
+RConn:
+  user_id: 1027
+  first_name: Robert
+  last_name: Conn
+  gender: Male
+  birthdate: 1948-01-01 
+  zip_code: 92981
+FCorbató:
+  user_id: 1028
+  first_name: Fernando
+  last_name: Corbató
+  gender: Male
+  birthdate: 1953-01-01 
+  zip_code: 93013
+FCordova:
+  user_id: 1029
+  first_name: France
+  last_name: Cordova
+  gender: Female
+  birthdate: 1957-01-01 
+  zip_code: 93046
+HCrane:
+  user_id: 1030
+  first_name: H.
+  last_name: Crane
+  gender: Male
+  birthdate: 1918-01-01 
+  zip_code: 93079
+FDahlen:
+  user_id: 1031
+  first_name: Francis
+  last_name: Dahlen
+  gender: Male
+  birthdate: 1957-01-01 
+  zip_code: 93111
+TDames:
+  user_id: 1032
+  first_name: Trent
+  last_name: Dames
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 93144
+HDavenport:
+  user_id: 1033
+  first_name: Horace
+  last_name: Davenport
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 93176
+FDavis:
+  user_id: 1034
+  first_name: Frank
+  last_name: Davis
+  gender: Male
+  birthdate: 1918-01-01 
+  zip_code: 93209
+MDavis:
+  user_id: 1035
+  first_name: Mark
+  last_name: Davis
+  gender: Male
+  birthdate: 1955-01-01 
+  zip_code: 93242
+RDavis:
+  user_id: 1036
+  first_name: Ronald
+  last_name: Davis
+  gender: Male
+  birthdate: 1957-01-01 
+  zip_code: 93274
+RDelauer:
+  user_id: 1037
+  first_name: Richard
+  last_name: Delauer
+  gender: Male
+  birthdate: 1935-01-01 
+  zip_code: 93307
+SDhawan:
+  user_id: 1038
+  first_name: Satish
+  last_name: Dhawan
+  gender: Male
+  birthdate: 1919-01-01 
+  zip_code: 93339
+JDuderstadt:
+  user_id: 1039
+  first_name: James
+  last_name: Duderstadt
+  gender: Male
+  birthdate: 1939-01-01 
+  zip_code: 93372
+LDunn:
+  user_id: 1040
+  first_name: Louis
+  last_name: Dunn
+  gender: Male
+  birthdate: 1924-01-01 
+  zip_code: 93405
+GEaton:
+  user_id: 1041
+  first_name: Gordon
+  last_name: Eaton
+  gender: Male
+  birthdate: 1945-01-01 
+  zip_code: 93437
+REckis:
+  user_id: 1042
+  first_name: Rollin
+  last_name: Eckis
+  gender: Male
+  birthdate: 1932-01-01 
+  zip_code: 93470
+EEllis:
+  user_id: 1043
+  first_name: Emory
+  last_name: Ellis
+  gender: Male
+  birthdate: 1920-01-01 
+  zip_code: 93502
+PEmmett:
+  user_id: 1044
+  first_name: Paul
+  last_name: Emmett
+  gender: Male
+  birthdate: 1927-01-01 
+  zip_code: 93535
+DEvans:
+  user_id: 1045
+  first_name: David
+  last_name: Evans
+  gender: Male
+  birthdate: 1952-01-01 
+  zip_code: 93568
+GFelsenfeld:
+  user_id: 1046
+  first_name: Gary
+  last_name: Felsenfeld
+  gender: Male
+  birthdate: 1952-01-01 
+  zip_code: 93600
+WFenzi:
+  user_id: 1047
+  first_name: Warren
+  last_name: Fenzi
+  gender: Male
+  birthdate: 1927-01-01 
+  zip_code: 93633
+JFletcher:
+  user_id: 1048
+  first_name: James
+  last_name: Fletcher
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 93665
+RFolsom:
+  user_id: 1049
+  first_name: Richard
+  last_name: Folsom
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 93698
+YFung:
+  user_id: 1050
+  first_name: Yuan-Cheng
+  last_name: Fung
+  gender: Male
+  birthdate: 1944-01-01 
+  zip_code: 93731
+EFurshpan:
+  user_id: 1051
+  first_name: Edwin
+  last_name: Furshpan
+  gender: Male
+  birthdate: 1951-01-01 
+  zip_code: 93763
+VGilinsky:
+  user_id: 1052
+  first_name: Victor
+  last_name: Gilinsky
+  gender: Male
+  birthdate: 1932-01-01 
+  zip_code: 93796
+PGithinji:
+  user_id: 1053
+  first_name: Philip
+  last_name: Githinji
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 93829
+DGlaser:
+  user_id: 1054
+  first_name: Donald
+  last_name: Glaser
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 93861
+JGunn:
+  user_id: 1055
+  first_name: James
+  last_name: Gunn
+  gender: Male
+  birthdate: 1953-01-01 
+  zip_code: 93894
+NGupta:
+  user_id: 1056
+  first_name: Narendra
+  last_name: Gupta
+  gender: Male
+  birthdate: 1954-01-01 
+  zip_code: 93926
+JHall:
+  user_id: 1057
+  first_name: James
+  last_name: Hall
+  gender: Male
+  birthdate: 1951-01-01 
+  zip_code: 93959
+RHall:
+  user_id: 1058
+  first_name: Robert
+  last_name: Hall
+  gender: Male
+  birthdate: 1942-01-01 
+  zip_code: 93992
+LHartwell:
+  user_id: 1059
+  first_name: Leland
+  last_name: Hartwell
+  gender: Male
+  birthdate: 1949-01-01 
+  zip_code: 94024
+SHendricks:
+  user_id: 1060
+  first_name: Sterling
+  last_name: Hendricks
+  gender: Male
+  birthdate: 1918-01-01 
+  zip_code: 94057
+SHermannsson:
+  user_id: 1061
+  first_name: Steingrimur
+  last_name: Hermannsson
+  gender: Male
+  birthdate: 1936-01-01 
+  zip_code: 94089
+IHerskowitz:
+  user_id: 1062
+  first_name: Ira
+  last_name: Herskowitz
+  gender: Male
+  birthdate: 1944-01-01 
+  zip_code: 94122
+LHerzenberg:
+  user_id: 1063
+  first_name: Leonard
+  last_name: Herzenberg
+  gender: Male
+  birthdate: 1955-01-01 
+  zip_code: 94155
+DHogness:
+  user_id: 1064
+  first_name: David
+  last_name: Hogness
+  gender: Male
+  birthdate: 1932-01-01 
+  zip_code: 94187
+GHousner:
+  user_id: 1065
+  first_name: George
+  last_name: Housner
+  gender: Male
+  birthdate: 1956-01-01 
+  zip_code: 94220
+THudspeth:
+  user_id: 1066
+  first_name: Tom
+  last_name: Hudspeth
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 94252
+VHughes:
+  user_id: 1067
+  first_name: Vernon
+  last_name: Hughes
+  gender: Male
+  birthdate: 1949-01-01 
+  zip_code: 94285
+MHunkapiller:
+  user_id: 1068
+  first_name: Michael
+  last_name: Hunkapiller
+  gender: Male
+  birthdate: 1953-01-01 
+  zip_code: 94318
+JIbers:
+  user_id: 1069
+  first_name: James
+  last_name: Ibers
+  gender: Male
+  birthdate: 1947-01-01 
+  zip_code: 94350
+AIorillo:
+  user_id: 1070
+  first_name: Anthony
+  last_name: Iorillo
+  gender: Male
+  birthdate: 1940-01-01 
+  zip_code: 94383
+AIppen:
+  user_id: 1071
+  first_name: Arthur
+  last_name: Ippen
+  gender: Male
+  birthdate: 1920-01-01 
+  zip_code: 94415
+HIsmail:
+  user_id: 1072
+  first_name: Hassan
+  last_name: Ismail
+  gender: Male
+  birthdate: 1922-01-01 
+  zip_code: 94448
+WJacobs:
+  user_id: 1073
+  first_name: W.
+  last_name: Jacobs
+  gender: Male
+  birthdate: 1921-01-01 
+  zip_code: 94481
+RJahns:
+  user_id: 1074
+  first_name: Richard
+  last_name: Jahns
+  gender: Male
+  birthdate: 1920-01-01 
+  zip_code: 94513
+LJan:
+  user_id: 1075
+  first_name: Lily
+  last_name: Jan
+  gender: Female
+  birthdate: 1956-01-01 
+  zip_code: 94546
+YJan:
+  user_id: 1076
+  first_name: Y.
+  last_name: Jan
+  gender: Male
+  birthdate: 1956-01-01 
+  zip_code: 94578
+HJohnston:
+  user_id: 1077
+  first_name: Harold
+  last_name: Johnston
+  gender: Male
+  birthdate: 1935-01-01 
+  zip_code: 94611
+AKaiser:
+  user_id: 1078
+  first_name: Armin
+  last_name: Kaiser
+  gender: Male
+  birthdate: 1931-01-01 
+  zip_code: 94644
+MKarplus:
+  user_id: 1079
+  first_name: Martin
+  last_name: Karplus
+  gender: Male
+  birthdate: 1936-01-01 
+  zip_code: 94676
+KKellermann:
+  user_id: 1080
+  first_name: Kenneth
+  last_name: Kellermann
+  gender: Male
+  birthdate: 1954-01-01 
+  zip_code: 94709
+JKerrebrock:
+  user_id: 1081
+  first_name: Jack
+  last_name: Kerrebrock
+  gender: Male
+  birthdate: 1947-01-01 
+  zip_code: 94741
+SKieffer:
+  user_id: 1082
+  first_name: Susan
+  last_name: Kieffer
+  gender: Female
+  birthdate: 1932-01-01 
+  zip_code: 94774
+RKirshner:
+  user_id: 1083
+  first_name: Robert
+  last_name: Kirshner
+  gender: Male
+  birthdate: 1954-01-01 
+  zip_code: 94807
+AKnudson:
+  user_id: 1084
+  first_name: Alfred
+  last_name: Knudson
+  gender: Male
+  birthdate: 1929-01-01 
+  zip_code: 94839
+DKnuth:
+  user_id: 1085
+  first_name: Donald
+  last_name: Knuth
+  gender: Male
+  birthdate: 1928-01-01 
+  zip_code: 94872
+ALightman:
+  user_id: 1086
+  first_name: Alan
+  last_name: Lightman
+  gender: Male
+  birthdate: 1953-01-01 
+  zip_code: 94904
+CLin:
+  user_id: 1087
+  first_name: Chia-Chiao
+  last_name: Lin
+  gender: Male
+  birthdate: 1942-01-01 
+  zip_code: 94937
+WLipscomb:
+  user_id: 1088
+  first_name: William
+  last_name: Lipscomb
+  gender: Male
+  birthdate: 1927-01-01 
+  zip_code: 94970
+SLoh:
+  user_id: 1089
+  first_name: Sandra
+  last_name: Loh
+  gender: Female
+  birthdate: 1951-01-01 
+  zip_code: 95002
+SLong:
+  user_id: 1090
+  first_name: Sharon
+  last_name: Long
+  gender: Female
+  birthdate: 1948-01-01 
+  zip_code: 95035
+JLu Valle:
+  user_id: 1091
+  first_name: James
+  last_name: Lu Valle
+  gender: Male
+  birthdate: 1937-01-01 
+  zip_code: 95067
+PMacCready:
+  user_id: 1092
+  first_name: Paul
+  last_name: MacCready
+  gender: Male
+  birthdate: 1928-01-01 
+  zip_code: 95100
+RMacNeal:
+  user_id: 1093
+  first_name: Richard
+  last_name: MacNeal
+  gender: Male
+  birthdate: 1948-01-01 
+  zip_code: 95133
+MMalin:
+  user_id: 1094
+  first_name: Michael
+  last_name: Malin
+  gender: Male
+  birthdate: 1953-01-01 
+  zip_code: 95165
+BMandelbrot:
+  user_id: 1095
+  first_name: Benoit
+  last_name: Mandelbrot
+  gender: Male
+  birthdate: 1938-01-01 
+  zip_code: 95198
+PManning:
+  user_id: 1096
+  first_name: Paul
+  last_name: Manning
+  gender: Male
+  birthdate: 1919-01-01 
+  zip_code: 95230
+DMason:
+  user_id: 1097
+  first_name: David
+  last_name: Mason
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 95263
+MMathews:
+  user_id: 1098
+  first_name: Max
+  last_name: Mathews
+  gender: Male
+  birthdate: 1939-01-01 
+  zip_code: 95296
+JMayer:
+  user_id: 1099
+  first_name: Joseph
+  last_name: Mayer
+  gender: Male
+  birthdate: 1921-01-01 
+  zip_code: 95328
+JMcCarthy:
+  user_id: 1100
+  first_name: John
+  last_name: McCarthy
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 95361
+HMcConnell:
+  user_id: 1101
+  first_name: Harden
+  last_name: McConnell
+  gender: Male
+  birthdate: 1932-01-01 
+  zip_code: 95394
+JMcLean:
+  user_id: 1102
+  first_name: John
+  last_name: McLean
+  gender: Male
+  birthdate: 1920-01-01 
+  zip_code: 95426
+WMcLean:
+  user_id: 1103
+  first_name: William
+  last_name: McLean
+  gender: Male
+  birthdate: 1919-01-01 
+  zip_code: 95459
+EMcMillan:
+  user_id: 1104
+  first_name: Edwin
+  last_name: McMillan
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 95491
+JMcMillan:
+  user_id: 1105
+  first_name: John
+  last_name: McMillan
+  gender: Male
+  birthdate: 1930-01-01 
+  zip_code: 95524
+DMcRuer:
+  user_id: 1106
+  first_name: Duane
+  last_name: McRuer
+  gender: Male
+  birthdate: 1933-01-01 
+  zip_code: 95557
+CMead:
+  user_id: 1107
+  first_name: Carver
+  last_name: Mead
+  gender: Male
+  birthdate: 1956-01-01 
+  zip_code: 95589
+HMenard:
+  user_id: 1108
+  first_name: H.
+  last_name: Menard
+  gender: Male
+  birthdate: 1928-01-01 
+  zip_code: 95622
+DMerrifield:
+  user_id: 1109
+  first_name: Donald
+  last_name: Merrifield
+  gender: Male
+  birthdate: 1921-01-01 
+  zip_code: 95654
+RMerton:
+  user_id: 1110
+  first_name: Robert
+  last_name: Merton
+  gender: Male
+  birthdate: 1949-01-01 
+  zip_code: 95687
+MMeselson:
+  user_id: 1111
+  first_name: Matthew
+  last_name: Meselson
+  gender: Male
+  birthdate: 1925-01-01 
+  zip_code: 95720
+RMettler:
+  user_id: 1112
+  first_name: Ruben
+  last_name: Mettler
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 95752
+HMickley:
+  user_id: 1113
+  first_name: Harold
+  last_name: Mickley
+  gender: Male
+  birthdate: 1923-01-01 
+  zip_code: 95785
+JMiles:
+  user_id: 1114
+  first_name: John
+  last_name: Miles
+  gender: Male
+  birthdate: 1947-01-01 
+  zip_code: 95817
+KMislow:
+  user_id: 1115
+  first_name: Kurt
+  last_name: Mislow
+  gender: Male
+  birthdate: 1940-01-01 
+  zip_code: 95850
+GMoore:
+  user_id: 1116
+  first_name: Gordon
+  last_name: Moore
+  gender: Male
+  birthdate: 1925-01-01 
+  zip_code: 95883
+WMoore:
+  user_id: 1117
+  first_name: William
+  last_name: Moore
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 95915
+WMunk:
+  user_id: 1118
+  first_name: Walter
+  last_name: Munk
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 95948
+MMuskat:
+  user_id: 1119
+  first_name: Morris
+  last_name: Muskat
+  gender: Male
+  birthdate: 1937-01-01 
+  zip_code: 95980
+RNarasimha:
+  user_id: 1120
+  first_name: Roddam
+  last_name: Narasimha
+  gender: Male
+  birthdate: 1936-01-01 
+  zip_code: 96013
+JNelson:
+  user_id: 1121
+  first_name: Jerry
+  last_name: Nelson
+  gender: Male
+  birthdate: 1945-01-01 
+  zip_code: 96046
+NNigam:
+  user_id: 1122
+  first_name: Navin
+  last_name: Nigam
+  gender: Male
+  birthdate: 1941-01-01 
+  zip_code: 96078
+RNoland:
+  user_id: 1123
+  first_name: Robert
+  last_name: Noland
+  gender: Male
+  birthdate: 1939-01-01 
+  zip_code: 96111
+BOliver:
+  user_id: 1124
+  first_name: Bernard
+  last_name: Oliver
+  gender: Male
+  birthdate: 1922-01-01 
+  zip_code: 96143
+BOlivera:
+  user_id: 1125
+  first_name: Baldomero
+  last_name: Olivera
+  gender: Male
+  birthdate: 1952-01-01 
+  zip_code: 96176
+FOppenheimer:
+  user_id: 1126
+  first_name: Frank
+  last_name: Oppenheimer
+  gender: Male
+  birthdate: 1929-01-01 
+  zip_code: 96209
+ROrbach:
+  user_id: 1127
+  first_name: Raymond
+  last_name: Orbach
+  gender: Male
+  birthdate: 1955-01-01 
+  zip_code: 96241
+DOsheroff:
+  user_id: 1128
+  first_name: Douglas
+  last_name: Osheroff
+  gender: Male
+  birthdate: 1945-01-01 
+  zip_code: 96274
+COtte:
+  user_id: 1129
+  first_name: Carel
+  last_name: Otte
+  gender: Male
+  birthdate: 1934-01-01 
+  zip_code: 96306
+SPace:
+  user_id: 1130
+  first_name: Stanley
+  last_name: Pace
+  gender: Male
+  birthdate: 1937-01-01 
+  zip_code: 96339
+WPanofsky:
+  user_id: 1131
+  first_name: Wolfgang
+  last_name: Panofsky
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 96372
+APardee:
+  user_id: 1132
+  first_name: Arthur
+  last_name: Pardee
+  gender: Male
+  birthdate: 1949-01-01 
+  zip_code: 96404
+EParker:
+  user_id: 1133
+  first_name: Eugene
+  last_name: Parker
+  gender: Male
+  birthdate: 1930-01-01 
+  zip_code: 96437
+GParker:
+  user_id: 1134
+  first_name: Gerhard
+  last_name: Parker
+  gender: Male
+  birthdate: 1954-01-01 
+  zip_code: 96469
+RParks:
+  user_id: 1135
+  first_name: Robert
+  last_name: Parks
+  gender: Male
+  birthdate: 1942-01-01 
+  zip_code: 96502
+DPeck:
+  user_id: 1136
+  first_name: Dallas
+  last_name: Peck
+  gender: Male
+  birthdate: 1935-01-01 
+  zip_code: 96535
+JPierce:
+  user_id: 1137
+  first_name: John
+  last_name: Pierce
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 96567
+CPings:
+  user_id: 1138
+  first_name: Cornelius
+  last_name: Pings
+  gender: Male
+  birthdate: 1939-01-01 
+  zip_code: 96600
+KPitzer:
+  user_id: 1139
+  first_name: Kenneth
+  last_name: Pitzer
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 96632
+APrabhakar:
+  user_id: 1140
+  first_name: Arati
+  last_name: Prabhakar
+  gender: Female
+  birthdate: 1945-01-01 
+  zip_code: 96665
+APuckett:
+  user_id: 1141
+  first_name: Allen
+  last_name: Puckett
+  gender: Male
+  birthdate: 1920-01-01 
+  zip_code: 96698
+LRader:
+  user_id: 1142
+  first_name: Louis
+  last_name: Rader
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 96730
+LRainwater:
+  user_id: 1143
+  first_name: L.
+  last_name: Rainwater
+  gender: Male
+  birthdate: 1926-01-01 
+  zip_code: 96763
+ERechtin:
+  user_id: 1144
+  first_name: Eberhardt
+  last_name: Rechtin
+  gender: Male
+  birthdate: 1934-01-01 
+  zip_code: 96795
+IReed:
+  user_id: 1145
+  first_name: Irving
+  last_name: Reed
+  gender: Male
+  birthdate: 1942-01-01 
+  zip_code: 96828
+EReinecke:
+  user_id: 1146
+  first_name: Ed
+  last_name: Reinecke
+  gender: Male
+  birthdate: 1919-01-01 
+  zip_code: 96861
+LRoot:
+  user_id: 1147
+  first_name: L.
+  last_name: Root
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 96893
+MRosbash:
+  user_id: 1148
+  first_name: Michael
+  last_name: Rosbash
+  gender: Male
+  birthdate: 1951-01-01 
+  zip_code: 96926
+BRosen:
+  user_id: 1149
+  first_name: Benjamin
+  last_name: Rosen
+  gender: Male
+  birthdate: 1957-01-01 
+  zip_code: 96958
+HRosen:
+  user_id: 1150
+  first_name: Harold
+  last_name: Rosen
+  gender: Male
+  birthdate: 1926-01-01 
+  zip_code: 96991
+SRoss:
+  user_id: 1151
+  first_name: Stephen
+  last_name: Ross
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 97024
+PSaltman:
+  user_id: 1152
+  first_name: Paul
+  last_name: Saltman
+  gender: Male
+  birthdate: 1923-01-01 
+  zip_code: 97056
+ASandage:
+  user_id: 1153
+  first_name: Allan
+  last_name: Sandage
+  gender: Male
+  birthdate: 1947-01-01 
+  zip_code: 97089
+GSato:
+  user_id: 1154
+  first_name: Gordon
+  last_name: Sato
+  gender: Male
+  birthdate: 1955-01-01 
+  zip_code: 97122
+HSchmitt:
+  user_id: 1155
+  first_name: Harrison
+  last_name: Schmitt
+  gender: Male
+  birthdate: 1923-01-01 
+  zip_code: 97154
+PSchultz:
+  user_id: 1156
+  first_name: Peter
+  last_name: Schultz
+  gender: Male
+  birthdate: 1951-01-01 
+  zip_code: 97187
+GSchurman:
+  user_id: 1157
+  first_name: Glenn
+  last_name: Schurman
+  gender: Male
+  birthdate: 1944-01-01 
+  zip_code: 97219
+HSchwartz:
+  user_id: 1158
+  first_name: Henry
+  last_name: Schwartz
+  gender: Male
+  birthdate: 1954-01-01 
+  zip_code: 97252
+WSears:
+  user_id: 1159
+  first_name: William
+  last_name: Sears
+  gender: Male
+  birthdate: 1938-01-01 
+  zip_code: 97285
+MSerrurier:
+  user_id: 1160
+  first_name: Mark
+  last_name: Serrurier
+  gender: Male
+  birthdate: 1931-01-01 
+  zip_code: 97317
+SShen:
+  user_id: 1161
+  first_name: San-Chiun
+  last_name: Shen
+  gender: Male
+  birthdate: 1946-01-01 
+  zip_code: 97350
+WShockley:
+  user_id: 1162
+  first_name: William
+  last_name: Shockley
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 97382
+EShoemaker:
+  user_id: 1163
+  first_name: Eugene
+  last_name: Shoemaker
+  gender: Male
+  birthdate: 1936-01-01 
+  zip_code: 97415
+PShor:
+  user_id: 1164
+  first_name: Peter
+  last_name: Shor
+  gender: Male
+  birthdate: 1957-01-01 
+  zip_code: 97448
+DShreffler:
+  user_id: 1165
+  first_name: Donald
+  last_name: Shreffler
+  gender: Male
+  birthdate: 1939-01-01 
+  zip_code: 97480
+OSilva:
+  user_id: 1166
+  first_name: Ozires
+  last_name: Silva
+  gender: Male
+  birthdate: 1942-01-01 
+  zip_code: 97513
+GSmith:
+  user_id: 1167
+  first_name: George
+  last_name: Smith
+  gender: Male
+  birthdate: 1941-01-01 
+  zip_code: 97545
+VSmith:
+  user_id: 1168
+  first_name: Vernon
+  last_name: Smith
+  gender: Male
+  birthdate: 1946-01-01 
+  zip_code: 97578
+GSolomon:
+  user_id: 1169
+  first_name: George
+  last_name: Solomon
+  gender: Male
+  birthdate: 1933-01-01 
+  zip_code: 97611
+SSolomon:
+  user_id: 1170
+  first_name: Sean
+  last_name: Solomon
+  gender: Male
+  birthdate: 1956-01-01 
+  zip_code: 97643
+HStever:
+  user_id: 1171
+  first_name: H.
+  last_name: Stever
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 97676
+DStrain:
+  user_id: 1172
+  first_name: Douglas
+  last_name: Strain
+  gender: Male
+  birthdate: 1936-01-01 
+  zip_code: 97708
+ISutherland:
+  user_id: 1173
+  first_name: Ivan
+  last_name: Sutherland
+  gender: Male
+  birthdate: 1935-01-01 
+  zip_code: 97741
+CTan:
+  user_id: 1174
+  first_name: Chia-Chen
+  last_name: Tan
+  gender: Male
+  birthdate: 1933-01-01 
+  zip_code: 97774
+HTemin:
+  user_id: 1175
+  first_name: Howard
+  last_name: Temin
+  gender: Male
+  birthdate: 1926-01-01 
+  zip_code: 97806
+ATollestrup:
+  user_id: 1176
+  first_name: Alvin
+  last_name: Tollestrup
+  gender: Male
+  birthdate: 1943-01-01 
+  zip_code: 97839
+KTomiyasu:
+  user_id: 1177
+  first_name: Kiyo
+  last_name: Tomiyasu
+  gender: Male
+  birthdate: 1952-01-01 
+  zip_code: 97871
+CTownes:
+  user_id: 1178
+  first_name: Charles
+  last_name: Townes
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 97904
+CTrimble:
+  user_id: 1179
+  first_name: Charles
+  last_name: Trimble
+  gender: Male
+  birthdate: 1945-01-01 
+  zip_code: 97937
+ATrivelpiece:
+  user_id: 1180
+  first_name: Alvin
+  last_name: Trivelpiece
+  gender: Male
+  birthdate: 1937-01-01 
+  zip_code: 97969
+HTsien:
+  user_id: 1181
+  first_name: Hsue-Shen
+  last_name: Tsien
+  gender: Male
+  birthdate: 1929-01-01 
+  zip_code: 98002
+DTurcotte:
+  user_id: 1182
+  first_name: Donald
+  last_name: Turcotte
+  gender: Male
+  birthdate: 1949-01-01 
+  zip_code: 98034
+MTurner:
+  user_id: 1183
+  first_name: Michael
+  last_name: Turner
+  gender: Male
+  birthdate: 1956-01-01 
+  zip_code: 98067
+NTurro:
+  user_id: 1184
+  first_name: Nicholas
+  last_name: Turro
+  gender: Male
+  birthdate: 1946-01-01 
+  zip_code: 98100
+VVeysey:
+  user_id: 1185
+  first_name: Victor
+  last_name: Veysey
+  gender: Male
+  birthdate: 1926-01-01 
+  zip_code: 98132
+JWaugh:
+  user_id: 1186
+  first_name: John
+  last_name: Waugh
+  gender: Male
+  birthdate: 1937-01-01 
+  zip_code: 98165
+WWebster:
+  user_id: 1187
+  first_name: Wilton
+  last_name: Webster
+  gender: Male
+  birthdate: 1955-01-01 
+  zip_code: 98197
+GWhitesides:
+  user_id: 1188
+  first_name: George
+  last_name: Whitesides
+  gender: Male
+  birthdate: 1930-01-01 
+  zip_code: 98230
+MWilliams:
+  user_id: 1189
+  first_name: Max
+  last_name: Williams
+  gender: Male
+  birthdate: 1945-01-01 
+  zip_code: 98263
+EWilson:
+  user_id: 1190
+  first_name: E.
+  last_name: Wilson
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 98295
+KWilson:
+  user_id: 1191
+  first_name: Kenneth
+  last_name: Wilson
+  gender: Male
+  birthdate: 1931-01-01 
+  zip_code: 98328
+RWilson:
+  user_id: 1192
+  first_name: Robert
+  last_name: Wilson
+  gender: Male
+  birthdate: 1929-01-01 
+  zip_code: 98360
+TWilson:
+  user_id: 1193
+  first_name: T.
+  last_name: Wilson
+  gender: Male
+  birthdate: 1918-01-01 
+  zip_code: 98393
+SWinstein:
+  user_id: 1194
+  first_name: Saul
+  last_name: Winstein
+  gender: Male
+  birthdate: 1916-01-01 
+  zip_code: 98426
+DWooldridge:
+  user_id: 1195
+  first_name: Dean
+  last_name: Wooldridge
+  gender: Male
+  birthdate: 1933-01-01 
+  zip_code: 98458
+MWrighton:
+  user_id: 1196
+  first_name: Mark
+  last_name: Wrighton
+  gender: Male
+  birthdate: 1942-01-01 
+  zip_code: 98491
+HYin:
+  user_id: 1197
+  first_name: Hung-Chang
+  last_name: Yin
+  gender: Male
+  birthdate: 1938-01-01 
+  zip_code: 98523
+WYoung:
+  user_id: 1198
+  first_name: William
+  last_name: Young
+  gender: Male
+  birthdate: 1918-01-01 
+  zip_code: 98556
+HYuen:
+  user_id: 1199
+  first_name: Henry
+  last_name: Yuen
+  gender: Male
+  birthdate: 1949-01-01 
+  zip_code: 98589
+AZarem:
+  user_id: 1200
+  first_name: Abe
+  last_name: Zarem
+  gender: Male
+  birthdate: 1919-01-01 
+  zip_code: 98621
+RZwanzig:
+  user_id: 1201
+  first_name: Robert
+  last_name: Zwanzig
+  gender: Male
+  birthdate: 1938-01-01 
+  zip_code: 98654
+GZweig:
+  user_id: 1202
+  first_name: George
+  last_name: Zweig
+  gender: Male
+  birthdate: 1934-01-01 
+  zip_code: 98687
+

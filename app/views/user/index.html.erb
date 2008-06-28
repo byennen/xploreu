@@ -1,0 +1,80 @@
+<h1>User Hub</h1>
+
+<div id="left_column">
+	<div class="sidebar_box">
+    <h2>
+      <span class="header">Basic User Info</span>
+      <span class="edit_link"><%= link_to "(edit)", :action => "edit" %></span>
+      <br clear="all" />
+    </h2>
+    <div class="sidebar_box_contents">
+      <table>
+        <tr>
+          <td class="label">Screen name:</td>
+          <td><%= @user.screen_name %></td>
+        </tr>
+        <tr>
+          <td class="label">Email:</td>
+          <td><%= @user.email %></td>
+        </tr>
+        <tr>
+          <td class="label">Password:</td>
+          <td>********</td>
+        </tr>
+      </table>  
+    </div>
+  </div>
+  <div class="sidebar_box">
+    <h2>
+      <span class="header">Spec</span>
+      <span class="edit_link">
+        <%= link_to "(edit)", :controller => "spec", :action => "edit" %>
+      </span>
+      <br clear="all" />
+    </h2>
+    <div class="sidebar_box_contents">
+      <table>
+        <%= render :partial    => "spec/field_row", 
+                   :collection => Spec::ALL_FIELDS %>
+      </table> 
+    </div>
+  </div>
+  <%= render :partial => 'avatar/sidebar_box' %>
+  <%= render :partial => 'faq/sidebar_box', :collection => Faq::FAVORITES %>
+</div>
+<div id="main_content">
+  <div id="full_name">
+    <%= h @spec.full_name.or_else("Your Name") %>
+  </div>
+  <div id="occupation">
+    <%= h @spec.occupation.or_else("Your Occupation") %>
+  </div> 
+  <div id="location">
+    <%= h @spec.location.or_else("Your Location") %>
+  </div> 
+  <span class="edit_link">
+    <%= link_to "(edit)", :controller => "spec", :action => "edit" %>
+  </span>
+
+  <hr noshade />
+  <%= link_to profile_for(@user), profile_for(@user) %>
+  <hr noshade />
+  
+  My Bio: 
+  <span class="edit_link">
+    <%= link_to "(edit)", :controller => "faq", :action => "edit" %>
+  </span>
+  <div id="bio" class="faq_answer">
+    <%= sanitize @faq.bio %>
+  </div> 
+  
+  <hr noshade />  
+  Friends:
+  <%= render :partial => "friendship/friends" %>  
+  <hr noshade />
+  Blog: 
+  <span class="edit_link">
+    <%= link_to "(manage)", blog_posts_path(@blog) %>
+  </span>
+  <%= render :partial => "profile/blog" %>
+</div>

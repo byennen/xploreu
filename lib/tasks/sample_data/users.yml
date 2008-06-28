@@ -1,0 +1,1016 @@
+BAmes:
+  id: 1000
+  screen_name: b_ames
+  email: bruce_ames@example.com
+  password: example_password
+JAndelin:
+  id: 1001
+  screen_name: j_andelin
+  email: john_andelin@example.com
+  password: example_password
+MArens:
+  id: 1002
+  screen_name: m_arens
+  email: moshe_arens@example.com
+  password: example_password
+HBabcock:
+  id: 1003
+  screen_name: h_babcock
+  email: horace_babcock@example.com
+  password: example_password
+WBallhaus:
+  id: 1004
+  screen_name: w_ballhaus
+  email: william_ballhaus@example.com
+  password: example_password
+ABeckman:
+  id: 1005
+  screen_name: a_beckman
+  email: arnold_beckman@example.com
+  password: example_password
+FBorman:
+  id: 1006
+  screen_name: f_borman
+  email: frank_borman@example.com
+  password: example_password
+RBower:
+  id: 1007
+  screen_name: r_bower
+  email: robert_bower@example.com
+  password: example_password
+JBoyd:
+  id: 1008
+  screen_name: j_boyd
+  email: james_boyd@example.com
+  password: example_password
+LBrewer:
+  id: 1009
+  screen_name: l_brewer
+  email: leo_brewer@example.com
+  password: example_password
+RBrewer:
+  id: 1010
+  screen_name: r_brewer
+  email: richard_brewer@example.com
+  password: example_password
+ABryson:
+  id: 1011
+  screen_name: a_bryson
+  email: arthur_bryson@example.com
+  password: example_password
+CBurton:
+  id: 1012
+  screen_name: c_burton
+  email: clifford_burton@example.com
+  password: example_password
+FCapra:
+  id: 1013
+  screen_name: f_capra
+  email: frank_capra@example.com
+  password: example_password
+WCarroll:
+  id: 1014
+  screen_name: w_carroll
+  email: william_carroll@example.com
+  password: example_password
+MCarus:
+  id: 1015
+  screen_name: m_carus
+  email: m._carus@example.com
+  password: example_password
+MChang:
+  id: 1016
+  screen_name: m_chang
+  email: milton_chang@example.com
+  password: example_password
+JCharyk:
+  id: 1017
+  screen_name: j_charyk
+  email: joseph_charyk@example.com
+  password: example_password
+HChenery:
+  id: 1018
+  screen_name: h_chenery
+  email: hollis_chenery@example.com
+  password: example_password
+AChester:
+  id: 1019
+  screen_name: a_chester
+  email: arthur_chester@example.com
+  password: example_password
+PChou:
+  id: 1020
+  screen_name: p_chou
+  email: pei-yuan_chou@example.com
+  password: example_password
+EClark:
+  id: 1021
+  screen_name: e_clark
+  email: earnest_clark@example.com
+  password: example_password
+FClauser:
+  id: 1022
+  screen_name: f_clauser
+  email: francis_clauser@example.com
+  password: example_password
+RClough:
+  id: 1023
+  screen_name: r_clough
+  email: ray_clough@example.com
+  password: example_password
+JCole:
+  id: 1024
+  screen_name: j_cole
+  email: julian_cole@example.com
+  password: example_password
+SColeman:
+  id: 1025
+  screen_name: s_coleman
+  email: sidney_coleman@example.com
+  password: example_password
+HColvin:
+  id: 1026
+  screen_name: h_colvin
+  email: hugh_colvin@example.com
+  password: example_password
+RConn:
+  id: 1027
+  screen_name: r_conn
+  email: robert_conn@example.com
+  password: example_password
+FCorbató:
+  id: 1028
+  screen_name: f_corbató
+  email: fernando_corbató@example.com
+  password: example_password
+FCordova:
+  id: 1029
+  screen_name: f_cordova
+  email: france_cordova@example.com
+  password: example_password
+HCrane:
+  id: 1030
+  screen_name: h_crane
+  email: h._crane@example.com
+  password: example_password
+FDahlen:
+  id: 1031
+  screen_name: f_dahlen
+  email: francis_dahlen@example.com
+  password: example_password
+TDames:
+  id: 1032
+  screen_name: t_dames
+  email: trent_dames@example.com
+  password: example_password
+HDavenport:
+  id: 1033
+  screen_name: h_davenport
+  email: horace_davenport@example.com
+  password: example_password
+FDavis:
+  id: 1034
+  screen_name: f_davis
+  email: frank_davis@example.com
+  password: example_password
+MDavis:
+  id: 1035
+  screen_name: m_davis
+  email: mark_davis@example.com
+  password: example_password
+RDavis:
+  id: 1036
+  screen_name: r_davis
+  email: ronald_davis@example.com
+  password: example_password
+RDelauer:
+  id: 1037
+  screen_name: r_delauer
+  email: richard_delauer@example.com
+  password: example_password
+SDhawan:
+  id: 1038
+  screen_name: s_dhawan
+  email: satish_dhawan@example.com
+  password: example_password
+JDuderstadt:
+  id: 1039
+  screen_name: j_duderstadt
+  email: james_duderstadt@example.com
+  password: example_password
+LDunn:
+  id: 1040
+  screen_name: l_dunn
+  email: louis_dunn@example.com
+  password: example_password
+GEaton:
+  id: 1041
+  screen_name: g_eaton
+  email: gordon_eaton@example.com
+  password: example_password
+REckis:
+  id: 1042
+  screen_name: r_eckis
+  email: rollin_eckis@example.com
+  password: example_password
+EEllis:
+  id: 1043
+  screen_name: e_ellis
+  email: emory_ellis@example.com
+  password: example_password
+PEmmett:
+  id: 1044
+  screen_name: p_emmett
+  email: paul_emmett@example.com
+  password: example_password
+DEvans:
+  id: 1045
+  screen_name: d_evans
+  email: david_evans@example.com
+  password: example_password
+GFelsenfeld:
+  id: 1046
+  screen_name: g_felsenfeld
+  email: gary_felsenfeld@example.com
+  password: example_password
+WFenzi:
+  id: 1047
+  screen_name: w_fenzi
+  email: warren_fenzi@example.com
+  password: example_password
+JFletcher:
+  id: 1048
+  screen_name: j_fletcher
+  email: james_fletcher@example.com
+  password: example_password
+RFolsom:
+  id: 1049
+  screen_name: r_folsom
+  email: richard_folsom@example.com
+  password: example_password
+YFung:
+  id: 1050
+  screen_name: y_fung
+  email: yuan-cheng_fung@example.com
+  password: example_password
+EFurshpan:
+  id: 1051
+  screen_name: e_furshpan
+  email: edwin_furshpan@example.com
+  password: example_password
+VGilinsky:
+  id: 1052
+  screen_name: v_gilinsky
+  email: victor_gilinsky@example.com
+  password: example_password
+PGithinji:
+  id: 1053
+  screen_name: p_githinji
+  email: philip_githinji@example.com
+  password: example_password
+DGlaser:
+  id: 1054
+  screen_name: d_glaser
+  email: donald_glaser@example.com
+  password: example_password
+JGunn:
+  id: 1055
+  screen_name: j_gunn
+  email: james_gunn@example.com
+  password: example_password
+NGupta:
+  id: 1056
+  screen_name: n_gupta
+  email: narendra_gupta@example.com
+  password: example_password
+JHall:
+  id: 1057
+  screen_name: j_hall
+  email: james_hall@example.com
+  password: example_password
+RHall:
+  id: 1058
+  screen_name: r_hall
+  email: robert_hall@example.com
+  password: example_password
+LHartwell:
+  id: 1059
+  screen_name: l_hartwell
+  email: leland_hartwell@example.com
+  password: example_password
+SHendricks:
+  id: 1060
+  screen_name: s_hendricks
+  email: sterling_hendricks@example.com
+  password: example_password
+SHermannsson:
+  id: 1061
+  screen_name: s_hermannsson
+  email: steingrimur_hermannsson@example.com
+  password: example_password
+IHerskowitz:
+  id: 1062
+  screen_name: i_herskowitz
+  email: ira_herskowitz@example.com
+  password: example_password
+LHerzenberg:
+  id: 1063
+  screen_name: l_herzenberg
+  email: leonard_herzenberg@example.com
+  password: example_password
+DHogness:
+  id: 1064
+  screen_name: d_hogness
+  email: david_hogness@example.com
+  password: example_password
+GHousner:
+  id: 1065
+  screen_name: g_housner
+  email: george_housner@example.com
+  password: example_password
+THudspeth:
+  id: 1066
+  screen_name: t_hudspeth
+  email: tom_hudspeth@example.com
+  password: example_password
+VHughes:
+  id: 1067
+  screen_name: v_hughes
+  email: vernon_hughes@example.com
+  password: example_password
+MHunkapiller:
+  id: 1068
+  screen_name: m_hunkapiller
+  email: michael_hunkapiller@example.com
+  password: example_password
+JIbers:
+  id: 1069
+  screen_name: j_ibers
+  email: james_ibers@example.com
+  password: example_password
+AIorillo:
+  id: 1070
+  screen_name: a_iorillo
+  email: anthony_iorillo@example.com
+  password: example_password
+AIppen:
+  id: 1071
+  screen_name: a_ippen
+  email: arthur_ippen@example.com
+  password: example_password
+HIsmail:
+  id: 1072
+  screen_name: h_ismail
+  email: hassan_ismail@example.com
+  password: example_password
+WJacobs:
+  id: 1073
+  screen_name: w_jacobs
+  email: w._jacobs@example.com
+  password: example_password
+RJahns:
+  id: 1074
+  screen_name: r_jahns
+  email: richard_jahns@example.com
+  password: example_password
+LJan:
+  id: 1075
+  screen_name: l_jan
+  email: lily_jan@example.com
+  password: example_password
+YJan:
+  id: 1076
+  screen_name: y_jan
+  email: y._jan@example.com
+  password: example_password
+HJohnston:
+  id: 1077
+  screen_name: h_johnston
+  email: harold_johnston@example.com
+  password: example_password
+AKaiser:
+  id: 1078
+  screen_name: a_kaiser
+  email: armin_kaiser@example.com
+  password: example_password
+MKarplus:
+  id: 1079
+  screen_name: m_karplus
+  email: martin_karplus@example.com
+  password: example_password
+KKellermann:
+  id: 1080
+  screen_name: k_kellermann
+  email: kenneth_kellermann@example.com
+  password: example_password
+JKerrebrock:
+  id: 1081
+  screen_name: j_kerrebrock
+  email: jack_kerrebrock@example.com
+  password: example_password
+SKieffer:
+  id: 1082
+  screen_name: s_kieffer
+  email: susan_kieffer@example.com
+  password: example_password
+RKirshner:
+  id: 1083
+  screen_name: r_kirshner
+  email: robert_kirshner@example.com
+  password: example_password
+AKnudson:
+  id: 1084
+  screen_name: a_knudson
+  email: alfred_knudson@example.com
+  password: example_password
+DKnuth:
+  id: 1085
+  screen_name: d_knuth
+  email: donald_knuth@example.com
+  password: example_password
+ALightman:
+  id: 1086
+  screen_name: a_lightman
+  email: alan_lightman@example.com
+  password: example_password
+CLin:
+  id: 1087
+  screen_name: c_lin
+  email: chia-chiao_lin@example.com
+  password: example_password
+WLipscomb:
+  id: 1088
+  screen_name: w_lipscomb
+  email: william_lipscomb@example.com
+  password: example_password
+SLoh:
+  id: 1089
+  screen_name: s_loh
+  email: sandra_loh@example.com
+  password: example_password
+SLong:
+  id: 1090
+  screen_name: s_long
+  email: sharon_long@example.com
+  password: example_password
+JLu Valle:
+  id: 1091
+  screen_name: j_lu valle
+  email: james_lu valle@example.com
+  password: example_password
+PMacCready:
+  id: 1092
+  screen_name: p_maccready
+  email: paul_maccready@example.com
+  password: example_password
+RMacNeal:
+  id: 1093
+  screen_name: r_macneal
+  email: richard_macneal@example.com
+  password: example_password
+MMalin:
+  id: 1094
+  screen_name: m_malin
+  email: michael_malin@example.com
+  password: example_password
+BMandelbrot:
+  id: 1095
+  screen_name: b_mandelbrot
+  email: benoit_mandelbrot@example.com
+  password: example_password
+PManning:
+  id: 1096
+  screen_name: p_manning
+  email: paul_manning@example.com
+  password: example_password
+DMason:
+  id: 1097
+  screen_name: d_mason
+  email: david_mason@example.com
+  password: example_password
+MMathews:
+  id: 1098
+  screen_name: m_mathews
+  email: max_mathews@example.com
+  password: example_password
+JMayer:
+  id: 1099
+  screen_name: j_mayer
+  email: joseph_mayer@example.com
+  password: example_password
+JMcCarthy:
+  id: 1100
+  screen_name: j_mccarthy
+  email: john_mccarthy@example.com
+  password: example_password
+HMcConnell:
+  id: 1101
+  screen_name: h_mcconnell
+  email: harden_mcconnell@example.com
+  password: example_password
+JMcLean:
+  id: 1102
+  screen_name: j_mclean
+  email: john_mclean@example.com
+  password: example_password
+WMcLean:
+  id: 1103
+  screen_name: w_mclean
+  email: william_mclean@example.com
+  password: example_password
+EMcMillan:
+  id: 1104
+  screen_name: e_mcmillan
+  email: edwin_mcmillan@example.com
+  password: example_password
+JMcMillan:
+  id: 1105
+  screen_name: j_mcmillan
+  email: john_mcmillan@example.com
+  password: example_password
+DMcRuer:
+  id: 1106
+  screen_name: d_mcruer
+  email: duane_mcruer@example.com
+  password: example_password
+CMead:
+  id: 1107
+  screen_name: c_mead
+  email: carver_mead@example.com
+  password: example_password
+HMenard:
+  id: 1108
+  screen_name: h_menard
+  email: h._menard@example.com
+  password: example_password
+DMerrifield:
+  id: 1109
+  screen_name: d_merrifield
+  email: donald_merrifield@example.com
+  password: example_password
+RMerton:
+  id: 1110
+  screen_name: r_merton
+  email: robert_merton@example.com
+  password: example_password
+MMeselson:
+  id: 1111
+  screen_name: m_meselson
+  email: matthew_meselson@example.com
+  password: example_password
+RMettler:
+  id: 1112
+  screen_name: r_mettler
+  email: ruben_mettler@example.com
+  password: example_password
+HMickley:
+  id: 1113
+  screen_name: h_mickley
+  email: harold_mickley@example.com
+  password: example_password
+JMiles:
+  id: 1114
+  screen_name: j_miles
+  email: john_miles@example.com
+  password: example_password
+KMislow:
+  id: 1115
+  screen_name: k_mislow
+  email: kurt_mislow@example.com
+  password: example_password
+GMoore:
+  id: 1116
+  screen_name: g_moore
+  email: gordon_moore@example.com
+  password: example_password
+WMoore:
+  id: 1117
+  screen_name: w_moore
+  email: william_moore@example.com
+  password: example_password
+WMunk:
+  id: 1118
+  screen_name: w_munk
+  email: walter_munk@example.com
+  password: example_password
+MMuskat:
+  id: 1119
+  screen_name: m_muskat
+  email: morris_muskat@example.com
+  password: example_password
+RNarasimha:
+  id: 1120
+  screen_name: r_narasimha
+  email: roddam_narasimha@example.com
+  password: example_password
+JNelson:
+  id: 1121
+  screen_name: j_nelson
+  email: jerry_nelson@example.com
+  password: example_password
+NNigam:
+  id: 1122
+  screen_name: n_nigam
+  email: navin_nigam@example.com
+  password: example_password
+RNoland:
+  id: 1123
+  screen_name: r_noland
+  email: robert_noland@example.com
+  password: example_password
+BOliver:
+  id: 1124
+  screen_name: b_oliver
+  email: bernard_oliver@example.com
+  password: example_password
+BOlivera:
+  id: 1125
+  screen_name: b_olivera
+  email: baldomero_olivera@example.com
+  password: example_password
+FOppenheimer:
+  id: 1126
+  screen_name: f_oppenheimer
+  email: frank_oppenheimer@example.com
+  password: example_password
+ROrbach:
+  id: 1127
+  screen_name: r_orbach
+  email: raymond_orbach@example.com
+  password: example_password
+DOsheroff:
+  id: 1128
+  screen_name: d_osheroff
+  email: douglas_osheroff@example.com
+  password: example_password
+COtte:
+  id: 1129
+  screen_name: c_otte
+  email: carel_otte@example.com
+  password: example_password
+SPace:
+  id: 1130
+  screen_name: s_pace
+  email: stanley_pace@example.com
+  password: example_password
+WPanofsky:
+  id: 1131
+  screen_name: w_panofsky
+  email: wolfgang_panofsky@example.com
+  password: example_password
+APardee:
+  id: 1132
+  screen_name: a_pardee
+  email: arthur_pardee@example.com
+  password: example_password
+EParker:
+  id: 1133
+  screen_name: e_parker
+  email: eugene_parker@example.com
+  password: example_password
+GParker:
+  id: 1134
+  screen_name: g_parker
+  email: gerhard_parker@example.com
+  password: example_password
+RParks:
+  id: 1135
+  screen_name: r_parks
+  email: robert_parks@example.com
+  password: example_password
+DPeck:
+  id: 1136
+  screen_name: d_peck
+  email: dallas_peck@example.com
+  password: example_password
+JPierce:
+  id: 1137
+  screen_name: j_pierce
+  email: john_pierce@example.com
+  password: example_password
+CPings:
+  id: 1138
+  screen_name: c_pings
+  email: cornelius_pings@example.com
+  password: example_password
+KPitzer:
+  id: 1139
+  screen_name: k_pitzer
+  email: kenneth_pitzer@example.com
+  password: example_password
+APrabhakar:
+  id: 1140
+  screen_name: a_prabhakar
+  email: arati_prabhakar@example.com
+  password: example_password
+APuckett:
+  id: 1141
+  screen_name: a_puckett
+  email: allen_puckett@example.com
+  password: example_password
+LRader:
+  id: 1142
+  screen_name: l_rader
+  email: louis_rader@example.com
+  password: example_password
+LRainwater:
+  id: 1143
+  screen_name: l_rainwater
+  email: l._rainwater@example.com
+  password: example_password
+ERechtin:
+  id: 1144
+  screen_name: e_rechtin
+  email: eberhardt_rechtin@example.com
+  password: example_password
+IReed:
+  id: 1145
+  screen_name: i_reed
+  email: irving_reed@example.com
+  password: example_password
+EReinecke:
+  id: 1146
+  screen_name: e_reinecke
+  email: ed_reinecke@example.com
+  password: example_password
+LRoot:
+  id: 1147
+  screen_name: l_root
+  email: l._root@example.com
+  password: example_password
+MRosbash:
+  id: 1148
+  screen_name: m_rosbash
+  email: michael_rosbash@example.com
+  password: example_password
+BRosen:
+  id: 1149
+  screen_name: b_rosen
+  email: benjamin_rosen@example.com
+  password: example_password
+HRosen:
+  id: 1150
+  screen_name: h_rosen
+  email: harold_rosen@example.com
+  password: example_password
+SRoss:
+  id: 1151
+  screen_name: s_ross
+  email: stephen_ross@example.com
+  password: example_password
+PSaltman:
+  id: 1152
+  screen_name: p_saltman
+  email: paul_saltman@example.com
+  password: example_password
+ASandage:
+  id: 1153
+  screen_name: a_sandage
+  email: allan_sandage@example.com
+  password: example_password
+GSato:
+  id: 1154
+  screen_name: g_sato
+  email: gordon_sato@example.com
+  password: example_password
+HSchmitt:
+  id: 1155
+  screen_name: h_schmitt
+  email: harrison_schmitt@example.com
+  password: example_password
+PSchultz:
+  id: 1156
+  screen_name: p_schultz
+  email: peter_schultz@example.com
+  password: example_password
+GSchurman:
+  id: 1157
+  screen_name: g_schurman
+  email: glenn_schurman@example.com
+  password: example_password
+HSchwartz:
+  id: 1158
+  screen_name: h_schwartz
+  email: henry_schwartz@example.com
+  password: example_password
+WSears:
+  id: 1159
+  screen_name: w_sears
+  email: william_sears@example.com
+  password: example_password
+MSerrurier:
+  id: 1160
+  screen_name: m_serrurier
+  email: mark_serrurier@example.com
+  password: example_password
+SShen:
+  id: 1161
+  screen_name: s_shen
+  email: san-chiun_shen@example.com
+  password: example_password
+WShockley:
+  id: 1162
+  screen_name: w_shockley
+  email: william_shockley@example.com
+  password: example_password
+EShoemaker:
+  id: 1163
+  screen_name: e_shoemaker
+  email: eugene_shoemaker@example.com
+  password: example_password
+PShor:
+  id: 1164
+  screen_name: p_shor
+  email: peter_shor@example.com
+  password: example_password
+DShreffler:
+  id: 1165
+  screen_name: d_shreffler
+  email: donald_shreffler@example.com
+  password: example_password
+OSilva:
+  id: 1166
+  screen_name: o_silva
+  email: ozires_silva@example.com
+  password: example_password
+GSmith:
+  id: 1167
+  screen_name: g_smith
+  email: george_smith@example.com
+  password: example_password
+VSmith:
+  id: 1168
+  screen_name: v_smith
+  email: vernon_smith@example.com
+  password: example_password
+GSolomon:
+  id: 1169
+  screen_name: g_solomon
+  email: george_solomon@example.com
+  password: example_password
+SSolomon:
+  id: 1170
+  screen_name: s_solomon
+  email: sean_solomon@example.com
+  password: example_password
+HStever:
+  id: 1171
+  screen_name: h_stever
+  email: h._stever@example.com
+  password: example_password
+DStrain:
+  id: 1172
+  screen_name: d_strain
+  email: douglas_strain@example.com
+  password: example_password
+ISutherland:
+  id: 1173
+  screen_name: i_sutherland
+  email: ivan_sutherland@example.com
+  password: example_password
+CTan:
+  id: 1174
+  screen_name: c_tan
+  email: chia-chen_tan@example.com
+  password: example_password
+HTemin:
+  id: 1175
+  screen_name: h_temin
+  email: howard_temin@example.com
+  password: example_password
+ATollestrup:
+  id: 1176
+  screen_name: a_tollestrup
+  email: alvin_tollestrup@example.com
+  password: example_password
+KTomiyasu:
+  id: 1177
+  screen_name: k_tomiyasu
+  email: kiyo_tomiyasu@example.com
+  password: example_password
+CTownes:
+  id: 1178
+  screen_name: c_townes
+  email: charles_townes@example.com
+  password: example_password
+CTrimble:
+  id: 1179
+  screen_name: c_trimble
+  email: charles_trimble@example.com
+  password: example_password
+ATrivelpiece:
+  id: 1180
+  screen_name: a_trivelpiece
+  email: alvin_trivelpiece@example.com
+  password: example_password
+HTsien:
+  id: 1181
+  screen_name: h_tsien
+  email: hsue-shen_tsien@example.com
+  password: example_password
+DTurcotte:
+  id: 1182
+  screen_name: d_turcotte
+  email: donald_turcotte@example.com
+  password: example_password
+MTurner:
+  id: 1183
+  screen_name: m_turner
+  email: michael_turner@example.com
+  password: example_password
+NTurro:
+  id: 1184
+  screen_name: n_turro
+  email: nicholas_turro@example.com
+  password: example_password
+VVeysey:
+  id: 1185
+  screen_name: v_veysey
+  email: victor_veysey@example.com
+  password: example_password
+JWaugh:
+  id: 1186
+  screen_name: j_waugh
+  email: john_waugh@example.com
+  password: example_password
+WWebster:
+  id: 1187
+  screen_name: w_webster
+  email: wilton_webster@example.com
+  password: example_password
+GWhitesides:
+  id: 1188
+  screen_name: g_whitesides
+  email: george_whitesides@example.com
+  password: example_password
+MWilliams:
+  id: 1189
+  screen_name: m_williams
+  email: max_williams@example.com
+  password: example_password
+EWilson:
+  id: 1190
+  screen_name: e_wilson
+  email: e._wilson@example.com
+  password: example_password
+KWilson:
+  id: 1191
+  screen_name: k_wilson
+  email: kenneth_wilson@example.com
+  password: example_password
+RWilson:
+  id: 1192
+  screen_name: r_wilson
+  email: robert_wilson@example.com
+  password: example_password
+TWilson:
+  id: 1193
+  screen_name: t_wilson
+  email: t._wilson@example.com
+  password: example_password
+SWinstein:
+  id: 1194
+  screen_name: s_winstein
+  email: saul_winstein@example.com
+  password: example_password
+DWooldridge:
+  id: 1195
+  screen_name: d_wooldridge
+  email: dean_wooldridge@example.com
+  password: example_password
+MWrighton:
+  id: 1196
+  screen_name: m_wrighton
+  email: mark_wrighton@example.com
+  password: example_password
+HYin:
+  id: 1197
+  screen_name: h_yin
+  email: hung-chang_yin@example.com
+  password: example_password
+WYoung:
+  id: 1198
+  screen_name: w_young
+  email: william_young@example.com
+  password: example_password
+HYuen:
+  id: 1199
+  screen_name: h_yuen
+  email: henry_yuen@example.com
+  password: example_password
+AZarem:
+  id: 1200
+  screen_name: a_zarem
+  email: abe_zarem@example.com
+  password: example_password
+RZwanzig:
+  id: 1201
+  screen_name: r_zwanzig
+  email: robert_zwanzig@example.com
+  password: example_password
+GZweig:
+  id: 1202
+  screen_name: g_zweig
+  email: george_zweig@example.com
+  password: example_password
+

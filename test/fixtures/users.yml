@@ -1,0 +1,34 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+valid_user:
+  id: 1
+  screen_name: millikan
+  email: ram@example.com
+  password: electron
+
+invalid_user:
+  id: 2
+  screen_name: aa/noyes
+  email: anoyes@example,com
+  password: sun
+  
+# Create a user with a blank spec.
+specless:
+  id: 3
+  screen_name: linusp
+  email: lpauling@example.com
+  password: 2nobels
+
+friend:
+  id: 4
+  screen_name: amigo
+  email: ami@example.com
+  password: Freund
+
+# Create 10 users so that searches can invoke pagination.
+<% (1..10).each do |i| %>
+user_<%= i %>:
+  id: <%= i + 4 %>
+  screen_name: user_<%= i %>
+  email: user_<%= i %>@example.com
+  password: foobar
+<% end %>

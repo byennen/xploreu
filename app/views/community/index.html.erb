@@ -1,0 +1,18 @@
+<h2><%= @title %></h2>
+<fieldset>
+  <legend>Alphabetical Index</legend>
+  <% @letters.each do |letter| %>
+    <% letter_class = (letter == @initial) ? "letter_current" : "letter" %>
+    <%= link_to(letter, { :action => "index", :id => letter },
+                        :class => letter_class) %>
+  <% end %>
+  <br clear="all" />
+</fieldset>
+
+ <%= render :partial => "result_summary" %>
+ <%= render :partial => "user_table" %>
+
+<% if @initial.nil? %>
+  <%= render :partial => "browse_form" %>
+  <%= render :partial => "search_form" %>
+<% end %>

@@ -1,0 +1,37 @@
+/**********************************
+* TITLE: XploreU * 
+* URI  : styles.css *
+* MODIF: 2008-July-1 *
+* CREATED BY: Lance Ennen *
+**********************************/
+
+html, body{margin:0;padding:0;text-align:center;font-family: sans-serif;background: #000000 url("../images/frontend/background.jpg") repeat-x;} 
+ 
+#pagewidth{width:930px;text-align:left;margin-left:auto;margin-right:auto;} 
+ 
+#header{position:relative;height:106px;background-color:transparent;width:100%;padding:30px 0px 5px;}
+
+.logo{float:left;}
+
+div.top_banner{float:right;}
+ 
+#maincol{background-color:#FFFFFF;float:right;display:inline;position:relative;width:100%;}
+ 
+#footer{height:100px;background-color:transparent;clear:both;}
+
+#footer_nav{color:3399CC;text-align:center;padding:5px;font-size:14px;}
+
+#footer_nav a, #footer_nav a:visited, #footer_nav a:hover, #footer_nav a:active{color: 3399CC;text-decoration: none;}
+
+.copyright{color:white;text-align:center;font-size:10px;padding:5px;}
+ 
+ /* Float containers fix: */ 
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+
+.clearfix{display: block;}
+/* End hide from IE-mac */

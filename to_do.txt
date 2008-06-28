@@ -1,0 +1,13 @@
+*/---- User Registration ----*/
+username
+password
+password confirmation
+how did you hear about us  
+university/college
+birthday
+capta image
+
+
+######## Bugs #########
+- add pagination plugin
+- fix community
