@@ -15,7 +15,11 @@ html, body{margin:0;padding:0;text-align:center;font-family: sans-serif;backgrou
 
 div.top_banner{float:right;}
  
-#maincol{background-color:#FFFFFF;float:right;display:inline;position:relative;width:100%;}
+#maincol{display:inline;position:relative;width:100%;}
+
+#homepage{background-image: url('../images/frontend/home_page_background.png');width:900px;height:636px;margin:0 auto;}
+
+#mainpage{background-color:#FFFFFF;width:900px;position:relative;margin:0 auto;top:-23px;}
  
 #footer{height:100px;background-color:transparent;clear:both;}
 
@@ -35,3 +39,17 @@ div.top_banner{float:right;}
 
 .clearfix{display: block;}
 /* End hide from IE-mac */
+
+/* Menu top nav - tims css*/
+ul.top_nav
+{padding:0px;margin:0px;border:0px;list-style-type:none;}
+
+ul.top_nav li
+{display:inline;padding:0px;margin:0px;border:0px;}
+
+ul.top_nav li a
+{padding:0px;margin:0px;border:0px;}
+
+ul.top_nav li a:hover
+{padding:0px;margin:0px;border:0px;}
+/* End menu top nav - tims css*/

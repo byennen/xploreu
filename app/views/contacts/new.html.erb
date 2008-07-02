@@ -1,0 +1,21 @@
+<div class="form">
+	<% form_tag contact_path do %>
+        <p><label for="name">Name:</label><br/>
+        <%= text_field_tag "name", @contact.name, :class => 'textinput' %>
+        <%#= error_messages_for_attribute(@contact, :name) %>
+
+        <p><label for="email">Email:</label><br/>
+        <%= text_field_tag "email", @contact.email, :class => 'textinput' %>
+        <%#= error_messages_for_attribute(@contact, :email) %>
+
+        <p><label for="phone">Phone:</label><br/>
+        <%= text_field_tag "phone", @contact.phone, :class => 'textinput' %>
+        <%#= error_messages_for_attribute(@contact, :phone) %>
+
+        <p><label for="message">Message:</label><br/>
+        <%= text_area_tag "message", @contact.message, :class => 'textarea' %>
+        <%#= error_messages_for_attribute(@contact, :message) %>
+
+        <p><%= submit_tag 'Submit' %></p>
+	<% end %>
+</div>

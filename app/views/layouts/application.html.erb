@@ -1,65 +1,76 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html> 
-  <head> 
-    <title><%= @title %></title> 
-    <%= stylesheet_link_tag "site" %>
-    <%= stylesheet_link_tag "profile" %>
-    <%= javascript_include_tag :defaults %> 
-  </head> 
-  <body> 
-    <div id="whole_page"> 
-      <div id="header">RailsSpace</div> 
-      <div id="nav">
-        <span style="float: right">
-          <% if logged_in? -%>
-            <%= nav_link "Hub", "user", "index" %> |
-            <%= nav_link "Logout", "user", "logout" %> 
-          <% else -%>
-            <%= nav_link "Register", "user", "register" %> |
-            <%= nav_link "Login", "user", "login" %>
+	<head> 
+    	<title><%= @title %>: XploreU The Student Travel-pedia</title>
+		<%= stylesheet_link_tag 'frontend', 'profile', 'site' %>
+	    <%= javascript_include_tag :defaults %>
+	</head>
+	<body>
+		<div id="pagewidth" >
+			<div id="header">
+				<div><%= image_tag 'frontend/logo.png', :class => 'logo' %></div>
+				<div class="top_banner">
+					<script type='text/javascript'> 
+					<!--//<![CDATA[
+					   var m3_u = (location.protocol=='https:'?'https://ads.xploreu.com/www/delivery/ajs.php':'http://ads.xploreu.com/www/delivery/ajs.php');
+					   var m3_r = Math.floor(Math.random()*99999999999);
+					   if (!document.MAX_used) document.MAX_used = ',';
+					   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+					   document.write ("?zoneid=5");
+					   document.write ('&amp;cb=' + m3_r);
+					   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+					   document.write ("&amp;loc=" + escape(window.location));
+					   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+					   if (document.context) document.write ("&context=" + escape(document.context));
+					   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+					   document.write ("'><\/scr"+"ipt>");
+					//]]>--> 
+			 		</script>
+					<noscript>
+					<a href='http://ads.xploreu.com/www/delivery/ck.php?n=a267a666&cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://ads.xploreu.com/www/delivery/avw.php?zoneid=5&cb=INSERT_RANDOM_NUMBER_HERE&n=a267a666' border='0' alt='' /></a>
+					</noscript>
+				</div><!-- end banner -->
+			</div>
+        <%= render :partial => 'shared/top_nav' %>
+				<div id="wrapper" class="clearfix" > 
+				<div id="maincol"> 
+					<% if flash[:notice] -%> 
+            <div id="notice"><%= flash[:notice] %></div> 
           <% end -%>
-        </span>
-        <%= nav_link "Home",     "site" %> | 
-        <%= nav_link "About Us", "site", "about" %> | 
-        <%= nav_link "Help",      "site", "help" %> |
-        <%= nav_link "Community", "community", "index" %>
-      </div>
-      <div id="content"> 
-        <% if flash[:notice] -%> 
-          <div id="notice"><%= flash[:notice] %></div> 
-        <% end -%> 
-        <%= yield %>
-        <br clear="all" />
-      </div> 
-    </div>
-    <% if ENV["RAILS_ENV"] == "development" %>
-      <div id="debug">
-        <a href="#" onclick="Element.toggle('params_debug_info');return false">
-        params</a> |
-        <a href="#" onclick="Element.toggle('session_debug_info');return false">
-        session</a> |
-        <a href="#" onclick="Element.toggle('env_debug_info');return false">
-        env</a> |
-        <a href="#" onclick="Element.toggle('request_debug_info');return false">
-        request</a>
-        <fieldset id="params_debug_info" class="debug_info" style="display: none">
-          <legend>params</legend>
-          <%= debug(params) %>
-        </fieldset>
-        <fieldset id="session_debug_info" class="debug_info" style="display: none">
-          <legend>session</legend>
-          <%= debug(session) %>
-        </fieldset>
-        <fieldset id="env_debug_info" class="debug_info" style="display: none">
-          <legend>env</legend>
-          <%= debug(request.env) %>
-        </fieldset>
-        <fieldset id="request_debug_info" class="debug_info" style="display: none">
-          <legend>request</legend>
-          <%= debug(request) %>
-        </fieldset>
-      </div>
-    <% end %>
-  </body>
+					<%= yield %>
+				</div>
+			</div>
+      <%= render :partial => 'shared/footer' %>
+
+		</div>
+		 <% if ENV["RAILS_ENV"] == "development" %>
+        <div id="debug">
+          <a href="#" onclick="Element.toggle('params_debug_info');return false">
+          params</a> |
+          <a href="#" onclick="Element.toggle('session_debug_info');return false">
+          session</a> |
+          <a href="#" onclick="Element.toggle('env_debug_info');return false">
+          env</a> |
+          <a href="#" onclick="Element.toggle('request_debug_info');return false">
+          request</a>
+          <fieldset id="params_debug_info" class="debug_info" style="display: none">
+            <legend>params</legend>
+            <%= debug(params) %>
+          </fieldset>
+          <fieldset id="session_debug_info" class="debug_info" style="display: none">
+            <legend>session</legend>
+            <%= debug(session) %>
+          </fieldset>
+          <fieldset id="env_debug_info" class="debug_info" style="display: none">
+            <legend>env</legend>
+            <%= debug(request.env) %>
+          </fieldset>
+          <fieldset id="request_debug_info" class="debug_info" style="display: none">
+            <legend>request</legend>
+            <%= debug(request) %>
+          </fieldset>
+        </div>
+      <% end %>
+	</body>
 </html>

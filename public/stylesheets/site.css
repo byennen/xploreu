@@ -1,17 +1,18 @@
-#nav {
-  color: black;
-  font-size: 12pt;
+#bottom_nav {
+  color: orange;
+  font-size: 9pt;
   font-weight: bold;
-  background: #ccc;
+  background: trasparent;
   padding: 0.5em;
+  text-align:center;
 }
 
-#nav a, #nav a:visited  {
+#bottom_nav a, #bottom_nav a:visited  {
   color: orange;
   text-decoration: none;
 }
 
-#nav a:hover {
+#bottom_nav a:hover {
   border-bottom: 2px dotted orange;
 }
 
@@ -40,12 +41,13 @@ html fieldset {
   position: relative; 
   margin-top:1em; 
   padding-top:2em; 
-  padding-bottom: 2em; 
+  padding-bottom: 2em;
+	
 } 
 
 /* Form Styles */ 
 fieldset { 
-  background: #ddd; 
+  background: #ddd;
 } 
 
 legend { 
