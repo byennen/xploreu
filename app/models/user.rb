@@ -38,8 +38,8 @@ class User < ActiveRecord::Base
   PASSWORD_RANGE = PASSWORD_MIN_LENGTH..PASSWORD_MAX_LENGTH 
 
   # Text box sizes for display in the views 
-  SCREEN_NAME_SIZE = 20 
-  PASSWORD_SIZE = 10 
+  SCREEN_NAME_SIZE = 30 
+  PASSWORD_SIZE = 30 
   EMAIL_SIZE = 30 
 
   validates_uniqueness_of :screen_name, :email 

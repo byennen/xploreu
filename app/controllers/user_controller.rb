@@ -1,5 +1,6 @@
 class UserController < ApplicationController
   include ApplicationHelper
+  layout  'site'
   helper :profile, :avatar
   before_filter :protect, :only => [:index, :edit]
   

@@ -1,4 +1,5 @@
 class CommunityController < ApplicationController
+  layout  'site'
   helper :profile
   
   def index  

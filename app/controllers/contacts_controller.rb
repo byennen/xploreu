@@ -1,5 +1,7 @@
 class ContactsController < ApplicationController
+  layout  'site'
   before_filter :create_contact
+  
   def new
     @title = "Contact"  
   end

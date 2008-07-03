@@ -1,8 +1,6 @@
-<div id="mainpage">
-  <%= render :partial => "search_form" %>
-  <% if @invalid %>
-  <p>Invalid character in search.</p>
-  <% end %>
-  <%= render :partial => "result_summary" %>
-  <%= render :partial => "user_table" %>
-</div>
+<%= render :partial => "search_form" %>
+<% if @invalid %>
+<p>Invalid character in search.</p>
+<% end %>
+<%= render :partial => "result_summary" %>
+<%= render :partial => "user_table" %>

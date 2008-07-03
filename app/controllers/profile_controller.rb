@@ -1,4 +1,5 @@
 class ProfileController < ApplicationController
+  layout  'site'
   helper :avatar, :friendship
 
   def index
