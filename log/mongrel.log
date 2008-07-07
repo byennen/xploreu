@@ -1,0 +1,4 @@
+** Daemonized, any open files are closed.  Look at /Users/lanceennen/Sites/xploreu_1.0/tmp/pids/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+ERROR: Please update /Users/lanceennen/Sites/xploreu_1.0/vendor/gems/validatable-1.6.7/init.rb with the require path for linked RubyGem validatable

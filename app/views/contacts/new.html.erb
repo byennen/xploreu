@@ -3,24 +3,27 @@
 <p>Have a question? Have an idea? Want to become an XU Ambassador? Want to meet the XU Team? Let us know what you are thinking!
 Fill out this form and we'll get back to you shortly!</p>
 
-<div class="form">
+<div class="form_row">
 	<% form_tag contact_path do %>
-        <p><label for="name">Name:</label><br/>
-        <%= text_field_tag "name", @contact.name, :class => 'textinput' %>
-        <%#= error_messages_for_attribute(@contact, :name) %>
+	  <fieldset>
+      <legend><%= @title %></legend>
+        <p><label for="name">Name:</label>
+        <%= text_field_tag "name", @contact.name %>
+        <%#= error_messages_for_attribute(@contact, :name) %></p>
 
-        <p><label for="email">Email:</label><br/>
-        <%= text_field_tag "email", @contact.email, :class => 'textinput' %>
-        <%#= error_messages_for_attribute(@contact, :email) %>
+        <p><label for="email">Email:</label>
+        <%= text_field_tag "email", @contact.email %>
+        <%#= error_messages_for_attribute(@contact, :email) %></p>
 
-        <p><label for="phone">Phone:</label><br/>
-        <%= text_field_tag "phone", @contact.phone, :class => 'textinput' %>
-        <%#= error_messages_for_attribute(@contact, :phone) %>
+        <p><label for="phone">Phone:</label>
+        <%= text_field_tag "phone", @contact.phone %>
+        <%#= error_messages_for_attribute(@contact, :phone) %></p>
 
-        <p><label for="message">Message:</label><br/>
-        <%= text_area_tag "message", @contact.message, :class => 'textarea' %>
-        <%#= error_messages_for_attribute(@contact, :message) %>
+        <p><label for="message">Message:</label>
+        <%= text_area_tag "message", @contact.message %>
+        <%#= error_messages_for_attribute(@contact, :message) %></p>
 
-        <p><%= submit_tag 'Submit' %></p>
+        <p><%= submit_tag 'Submit', :class => "submit" %></p>
+      </fieldset>
 	<% end %>
 </div>

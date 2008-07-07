@@ -64,6 +64,11 @@ Rails::Initializer.run do |config|
 
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
+  
+  # Custom gem requirements  
+  config.gem 'mislav-will_paginate', :version => '~> 2.3.2',  
+                                     :lib => 'will_paginate',  
+                                     :source => 'http://gems.github.com'
 end
 
 # Include your application configuration below
@@ -79,3 +84,6 @@ ActionMailer::Base.smtp_settings = {
   :port       => 25,
   :domain     => "railsspace.com"
 }
+
+# Contact form
+require "validatable"

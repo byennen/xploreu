@@ -9,5 +9,8 @@ capta image
 
 
 ######## Bugs #########
-- add pagination plugin
-- fix community
+- fix user page
+- install rspec 
+- check edge rails
+- user login
+- cap deploy

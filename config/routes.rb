@@ -5,6 +5,8 @@ ActionController::Routing::Routes.draw do |map|
     end 
   end
   
+  map.contact '/contact', :controller => 'contacts', :action => 'new', :conditions => {:method => :get}
+  
   # The priority is based upon order of creation: first created -> highest priority.
   
   # Sample of regular route:

@@ -20,3 +20,9 @@ config.action_view.cache_template_loading            = true
 
 # Disable delivery errors, bad email addresses will be ignored
 # config.action_mailer.raise_delivery_errors = false
+
+ActionMailer::Base.delivery_method = :sendmail
+
+SITE="http://www.xploreu.com"
+
+CONTACT_EMAIL = "contact@xploreu.com"

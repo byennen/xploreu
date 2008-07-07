@@ -1,5 +1,5 @@
 #bottom_nav {
-  color: orange;
+  color: #3399cc;
   font-size: 9pt;
   font-weight: bold;
   background: trasparent;
@@ -8,12 +8,12 @@
 }
 
 #bottom_nav a, #bottom_nav a:visited  {
-  color: orange;
+  color: #3399cc;
   text-decoration: none;
 }
 
 #bottom_nav a:hover {
-  border-bottom: 2px dotted orange;
+  border-bottom: 2px dotted #3399cc;
 }
 
 #content {
@@ -62,7 +62,11 @@ label {
   text-align: right; 
   margin-right: 0.2em; 
   display: block; 
-} 
+}
+
+.textinput{ 
+
+}
 
 .form_row { 
   white-space: nowrap; 
@@ -71,6 +75,10 @@ label {
 
 .submit { 
   margin-left: 15em; 
+}
+
+.submit_homepage { 
+  margin-left: 13em; 
 }
 
 /* Debug Style */
