@@ -32,3 +32,7 @@ def paginate(arg, options = {})
     [result_pages, items[offset..(offset + items_per_page - 1)]]
   end
 end
+
+
+*/---- Contact ----*/
+Re-do the form to use the contact model
