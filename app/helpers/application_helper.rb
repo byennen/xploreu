@@ -24,6 +24,6 @@ module ApplicationHelper
   
   # Return true if results should be paginated.
   def paginated?
-    @pages and @pages.length > 1
+    @pages and @pages > 1
   end
 end 

@@ -28,28 +28,13 @@ class ApplicationController < ActionController::Base
       return false
     end
   end
-  
-  # Paginate item list if present, else call default paginate method.
-  def paginate(arg, options = {})
-    if arg.instance_of?(Symbol) or arg.instance_of?(String)
-      # Use default paginate function.
-      collection_id = arg  # arg is, e.g., :specs or "specs"
-      super(collection_id, options)
-    else
-      # Paginate by hand.
-      items = arg  # arg is a list of items, e.g., users
-      items_per_page = options[:per_page] || 10
-      page = (params[:page] || 1).to_i
-      result_pages = Paginator.new(self, items.length, items_per_page, page)
-      offset = (page - 1) * items_per_page
-      [result_pages, items[offset..(offset + items_per_page - 1)]]
-    end
-  end
-  
+    
   def make_profile_vars
     @spec = @user.spec ||= Spec.new
     @faq = @user.faq ||= Faq.new 
-    @blog = @user.blog ||= Blog.new  
-    @pages, @posts = paginate(@blog.posts, :per_page => 3)
+    @blog = @user.blog ||= Blog.new
+    @posts = Post.paginate_by_blog_id(@blog.id, :page => params[:page], :per_page => 3)
+    @pages = @posts.total_entries
+    # @pages, @posts = paginate(@blog.posts, :per_page => 3)
   end
 end

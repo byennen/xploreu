@@ -14,3 +14,21 @@ capta image
 - check edge rails
 - user login
 - cap deploy
+
+
+# Paginate item list if present, else call default paginate method.
+def paginate(arg, options = {})
+  if arg.instance_of?(Symbol) or arg.instance_of?(String)
+    # Use default paginate function.
+    collection_id = arg  # arg is, e.g., :specs or "specs"
+    super(collection_id, options)
+  else
+    # Paginate by hand.
+    items = arg  # arg is a list of items, e.g., users
+    items_per_page = options[:per_page] || 10
+    page = (params[:page] || 1).to_i
+    result_pages = Paginator.new(self, items.length, items_per_page, page)
+    offset = (page - 1) * items_per_page
+    [result_pages, items[offset..(offset + items_per_page - 1)]]
+  end
+end
