@@ -35,6 +35,6 @@ class ApplicationController < ActionController::Base
     @blog = @user.blog ||= Blog.new
     @posts = Post.paginate_by_blog_id(@blog.id, :page => params[:page], :per_page => 3)
     @pages = @posts.total_entries
-    # @pages, @posts = paginate(@blog.posts, :per_page => 3)
+    #@pages, @posts = paginate(@blog.posts, :per_page => 3)
   end
 end

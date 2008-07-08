@@ -1,4 +1,5 @@
 class SpecController < ApplicationController
+  layout  'site'
   before_filter :protect
 
   def index

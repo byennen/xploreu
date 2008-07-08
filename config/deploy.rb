@@ -19,14 +19,19 @@ set :application, "xploreu_1.0"
 # github Configuration
 default_run_options[:pty] = true
 
+# set :ssh_options, { :forward_agent => true }
+
 # github clone URL
-set :repository, "git@github.com:byennen/xploreu.git"
+set :repository, "git@github-xploreu:byennen/xploreu.git"
+# set :repository, "git@github.com:byennen/xploreu.git"
+
+set :deploy_vai, :remote_cache
 
 # github scm
 set :scm, "git"
 
 # github scm passphrase
-set :scm_passphrase, "ilikemarley"
+# set :scm_passphrase, "ilikemarley"
 
 # Login user for ssh.
 set :user, "deploy"

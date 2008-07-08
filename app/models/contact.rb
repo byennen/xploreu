@@ -1,4 +1,4 @@
-class Contact
+class Contact < ActiveRecord::Base
   include Validatable
  
   attr_accessor :name, :email, :phone, :message

@@ -10,9 +10,9 @@
 		<div id="pagewidth" >
       <%= render :partial => 'shared/header' %>
         <%= render :partial => 'shared/top_nav' %>
-				<div id="wrapper" class="clearfix" > 
+				<div id="wrapper" class="clearfix" >
+				<%= render :partial => 'shared/notice' %>
 				<div id="maincol"> 
-          <%= render :partial => 'shared/notice' %>
 					<%= yield %>
 				</div>
 			</div>

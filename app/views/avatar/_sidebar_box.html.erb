@@ -1,6 +1,6 @@
 <div class="sidebar_box">
   <h2>
-    <span class="header">Avatar</span>
+    <span class="header">User Photo</span>
     <% unless hide_edit_links? %>
       <span class="edit_link">
         <%= link_to "(edit)", :controller => "avatar", :action => "upload" %>
@@ -12,7 +12,7 @@
     <% if @user.avatar.exists? %>
       <%= avatar_tag(@user) %>
     <% elsif not hide_edit_links? %>
-      No avatar yet? 
+      No photo yet? 
       <%= link_to "Upload one!", :controller => "avatar", 
                                  :action => "upload" %>
     <% end %>

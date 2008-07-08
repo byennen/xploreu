@@ -1,4 +1,5 @@
 class AvatarController < ApplicationController
+  layout  'site'
   before_filter :protect
 
   def index
@@ -6,13 +7,13 @@ class AvatarController < ApplicationController
   end
 
   def upload
-    @title = "Upload Your Avatar"
+    @title = "Upload Your Photo"
     @user = User.find(session[:user_id])
     if param_posted?(:avatar)
       image = params[:avatar][:image]
       @avatar = Avatar.new(@user, image)
       if @avatar.save
-        flash[:notice] = "Your avatar has been uploaded."
+        flash[:notice] = "Your photo has been uploaded."
         redirect_to hub_url
       end
     end
@@ -22,7 +23,7 @@ class AvatarController < ApplicationController
   def delete
     user = User.find(session[:user_id])
     user.avatar.delete
-    flash[:notice] = "Your avatar has been deleted."
+    flash[:notice] = "Your photo has been deleted."
     redirect_to hub_url
   end
 end

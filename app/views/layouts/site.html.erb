@@ -16,6 +16,15 @@
                 <div id="TopRightCorner"></div>		
           			<div id="TopLeftCorner"></div>
           			  <div class="inner">
+            			  <div id="nav">
+                      <span style="float: right">
+                        <% if logged_in? -%>
+                          <%= nav_link "Profile", "user", "index" %> |
+                          <%= nav_link "Logout", "user", "logout" %> 
+                        <% else -%>
+                        <% end -%>
+                      </span>
+                      </div>
                     <%= render :partial => 'shared/notice' %>
       				      <%= yield %>
       				    </div>

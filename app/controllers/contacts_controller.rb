@@ -1,16 +1,14 @@
 class ContactsController < ApplicationController
   layout  'site'
-  before_filter :create_contact
   
   def new
+    @contact = Contact.new
     @title = "Contact"  
   end
   
   def create
-    @contact.name = params[:name]
-    @contact.email = params[:email]
-    @contact.phone = params[:phone]
-    @contact.message = params[:message]
+    debugger
+    @contact = Contact.create params[:contact]
     if @contact.valid?
       @contact.deliver
       flash[:notice] = "Contact Message Sent"
@@ -18,11 +16,6 @@ class ContactsController < ApplicationController
     else
       render :action => 'new'
     end
-  end
-  
-  private
-  def create_contact
-    @contact = Contact.new
   end
   
 end

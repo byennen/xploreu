@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController 
+  layout  'site'
   helper :profile, :avatar 
   include ProfileHelper 
   before_filter :protect, :load_post 

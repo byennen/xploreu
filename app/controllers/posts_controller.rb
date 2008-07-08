@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  layout  'site'
   helper :profile, :avatar
   before_filter :protect, :protect_blog
   before_filter :protect_post, :only => [:show, :edit, :update, :destroy]
@@ -6,7 +7,8 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.xml
   def index
-    @pages, @posts = paginate(@blog.posts)
+    #@pages, @posts = paginate(@blog.posts)
+    @pages, @posts = Blog.paginate :page => params[:page], :per_page => 10
     @title = "Blog Management"
 
     respond_to do |format|

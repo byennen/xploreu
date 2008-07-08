@@ -1,4 +1,5 @@
 class EmailController < ApplicationController
+  layout  'site'
   include ProfileHelper
   before_filter :protect, :only => [ "correspond" ]
 
