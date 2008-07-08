@@ -7,8 +7,7 @@ class ContactsController < ApplicationController
   end
   
   def create
-    debugger
-    @contact = Contact.create params[:contact]
+    @contact = Contact.new params[:contact]
     if @contact.valid?
       @contact.deliver
       flash[:notice] = "Contact Message Sent"

@@ -8,19 +8,19 @@ Fill out this form and we'll get back to you shortly!</p>
 	  <fieldset>
       <legend><%= @title %></legend>
         <p><label for="name">Name:</label>
-        <%= text_field_tag "name", @contact.name %>
+        <%= text_field :contact, :name %>
         <%#= error_messages_for_attribute(@contact, :name) %></p>
 
         <p><label for="email">Email:</label>
-        <%= text_field_tag "email", @contact.email %>
+        <%= text_field :contact, :email %>
         <%#= error_messages_for_attribute(@contact, :email) %></p>
 
         <p><label for="phone">Phone:</label>
-        <%= text_field_tag "phone", @contact.phone %>
+        <%= text_field :contact, :phone %>
         <%#= error_messages_for_attribute(@contact, :phone) %></p>
 
         <p><label for="message">Message:</label>
-        <%= text_area_tag "message", @contact.message %>
+        <%= text_field :contact, :message %>
         <%#= error_messages_for_attribute(@contact, :message) %></p>
 
         <p><%= submit_tag 'Submit', :class => "submit" %></p>

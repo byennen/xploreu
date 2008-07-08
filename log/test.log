@@ -6337,3 +6337,1372 @@ Rendering template within layouts/site
 Rendering contacts/new
 Completed in 0.00038 (2603 reqs/sec) | Rendering: 0.00020 (51%) | DB: 0.00028 (71%) | 200 OK [http://test.host/contact]
   [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+Asked for a remote server ? true, ENV["FERRET_USE_LOCAL_INDEX"] is nil, looks like we are not the server
+Will use local index.
+using index in /Users/lanceennen/Sites/xploreu_1.0/index/test/spec
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000189)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSpec Columns (0.002573)[0m   [0mSHOW FIELDS FROM `specs`[0m
+default field list: [:city, :occupation, :gender, :user_id, :birthdate, :last_name, :zip_code, :first_name, :state]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000206)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 11:41:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00221 (452 reqs/sec) | Rendering: 0.00022 (9%) | DB: 0.00032 (14%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000504)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000194)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:41:25) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+  [4;36;1mSQL (0.000194)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000238)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:41:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+  [4;36;1mSQL (0.000285)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000136)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:41:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:41:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000190)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:41:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+  [4;36;1mSQL (0.002289)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000189)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 11:42:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00221 (452 reqs/sec) | Rendering: 0.00022 (9%) | DB: 0.00029 (12%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000169)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000201)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:42:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00022 (4629 reqs/sec) | DB: 0.00037 (171%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000153)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:42:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00022 (4609 reqs/sec) | DB: 0.00027 (122%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000404)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000147)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:42:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00028 (3545 reqs/sec) | DB: 0.00055 (195%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000154)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000177)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:42:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5236 reqs/sec) | DB: 0.00033 (173%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.001446)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000204)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:42:59) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00046 (2159 reqs/sec) | Rendering: 0.00025 (53%) | DB: 0.00165 (356%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000348)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000179)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000193)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000216)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000203)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:47:45) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00221 (451 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00032 (14%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000126)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:47:45) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4975 reqs/sec) | DB: 0.00025 (126%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000239)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:47:45) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5753 reqs/sec) | DB: 0.00035 (198%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000893)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:47:45) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5841 reqs/sec) | DB: 0.00101 (588%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000123)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000125)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 11:47:45) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5262 reqs/sec) | DB: 0.00025 (130%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000126)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 11:47:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00036 (2770 reqs/sec) | Rendering: 0.00019 (51%) | DB: 0.00024 (65%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000211)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000360)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000191)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000107)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000210)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000189)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000190)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000097)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000209)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000191)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000197)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000204)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000186)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000187)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:00:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00221 (451 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00029 (13%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000116)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000131)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:00:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4928 reqs/sec) | DB: 0.00025 (121%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:00:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5526 reqs/sec) | DB: 0.00023 (128%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000374)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:00:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4946 reqs/sec) | DB: 0.00048 (235%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000129)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:00:37) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5210 reqs/sec) | DB: 0.00025 (128%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000131)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:00:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00037 (2732 reqs/sec) | Rendering: 0.00019 (51%) | DB: 0.00025 (67%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000122)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000209)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000202)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000207)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000855)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000213)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000870)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000193)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000135)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000257)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000510)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000778)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000203)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:04:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00258 (388 reqs/sec) | Rendering: 0.00023 (8%) | DB: 0.00032 (12%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000153)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001280)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:04:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00025 (4048 reqs/sec) | DB: 0.00143 (580%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000131)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000876)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:04:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5652 reqs/sec) | DB: 0.00101 (569%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:04:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5817 reqs/sec) | DB: 0.00022 (130%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000116)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000126)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:04:36) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5152 reqs/sec) | DB: 0.00024 (124%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000139)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000123)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:04:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00036 (2792 reqs/sec) | Rendering: 0.00019 (51%) | DB: 0.00026 (73%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000123)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000107)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000195)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000106)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000223)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001305)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000819)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000195)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001084)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000206)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000189)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000235)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000300)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000267)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.002002)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000190)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000309)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000185)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:07:20) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00221 (452 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00028 (12%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000126)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000120)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:07:20) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00027 (3701 reqs/sec) | DB: 0.00025 (91%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000251)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:07:20) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5745 reqs/sec) | DB: 0.00037 (210%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000219)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:07:20) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5849 reqs/sec) | DB: 0.00032 (188%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000199)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:07:20) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (5102 reqs/sec) | DB: 0.00031 (157%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000107)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:07:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00036 (2809 reqs/sec) | Rendering: 0.00018 (51%) | DB: 0.00023 (64%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000513)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000096)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000095)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000236)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001001)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000189)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000217)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000124)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000730)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000228)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000195)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000477)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000215)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.001333)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000275)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000687)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000203)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:08:42) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00307 (326 reqs/sec) | Rendering: 0.00025 (8%) | DB: 0.00031 (10%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000167)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000144)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:08:42) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4975 reqs/sec) | DB: 0.00031 (154%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000118)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000584)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:08:42) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5683 reqs/sec) | DB: 0.00070 (398%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000267)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:08:42) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5809 reqs/sec) | DB: 0.00039 (224%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000122)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:08:42) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5152 reqs/sec) | DB: 0.00024 (121%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000122)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000144)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:08:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00037 (2739 reqs/sec) | Rendering: 0.00020 (53%) | DB: 0.00027 (72%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000256)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000393)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000090)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000233)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000101)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000250)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000122)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000445)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000111)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000310)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000189)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:13) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00227 (439 reqs/sec) | Rendering: 0.00024 (10%) | DB: 0.00030 (13%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000154)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:13) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4951 reqs/sec) | DB: 0.00027 (136%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000494)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:13) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5777 reqs/sec) | DB: 0.00061 (351%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000186)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:13) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5949 reqs/sec) | DB: 0.00029 (173%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000200)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:13) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+  [4;36;1mSQL (0.000144)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000199)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:10:13) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00037 (2732 reqs/sec) | Rendering: 0.00019 (52%) | DB: 0.00065 (176%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000150)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000186)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:29) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00233 (428 reqs/sec) | Rendering: 0.00024 (10%) | DB: 0.00029 (12%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000174)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000640)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:29) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5152 reqs/sec) | DB: 0.00081 (419%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000798)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:29) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5461 reqs/sec) | DB: 0.00092 (501%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000122)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:29) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5915 reqs/sec) | DB: 0.00023 (138%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000135)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:10:29) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts", "these"=>"options"}
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000122)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:10:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00037 (2739 reqs/sec) | Rendering: 0.00019 (52%) | DB: 0.00049 (134%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000116)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000206)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000101)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00227 (439 reqs/sec) | Rendering: 0.00024 (10%) | DB: 0.00031 (13%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000151)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000130)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (5053 reqs/sec) | DB: 0.00028 (142%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000178)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.003743)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4946 reqs/sec) | DB: 0.00392 (1939%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000123)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5882 reqs/sec) | DB: 0.00023 (136%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000125)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+  [4;36;1mSQL (0.000117)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000127)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:11:09) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00039 (2597 reqs/sec) | Rendering: 0.00020 (51%) | DB: 0.00048 (125%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000189)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:14) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00226 (441 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00030 (13%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000155)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:14) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (4928 reqs/sec) | DB: 0.00029 (143%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:14) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5315 reqs/sec) | DB: 0.00023 (121%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000115)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:14) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5714 reqs/sec) | DB: 0.00023 (133%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000226)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000127)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:14) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5159 reqs/sec) | DB: 0.00035 (182%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000116)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:11:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00038 (2611 reqs/sec) | Rendering: 0.00021 (54%) | DB: 0.00023 (61%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000204)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000214)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000356)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000275)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000658)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000217)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000178)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:17) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00259 (385 reqs/sec) | Rendering: 0.00033 (12%) | DB: 0.00266 (102%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000668)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000143)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:17) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00021 (4809 reqs/sec) | DB: 0.00081 (390%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000118)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:17) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00064 (1555 reqs/sec) | DB: 0.00023 (35%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000153)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000190)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:17) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5675 reqs/sec) | DB: 0.00034 (194%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000105)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000186)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:11:17) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00036 (2777 reqs/sec) | DB: 0.00029 (80%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000133)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000180)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:11:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00046 (2168 reqs/sec) | Rendering: 0.00021 (45%) | DB: 0.00031 (67%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000228)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000202)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000133)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000212)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000121)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000382)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000343)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000263)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000328)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:13:19) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00322 (310 reqs/sec) | Rendering: 0.00023 (7%) | DB: 0.00241 (74%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000134)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:13:19) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5203 reqs/sec) | DB: 0.00024 (126%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000103)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:13:19) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5645 reqs/sec) | DB: 0.00020 (113%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000110)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000170)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:13:19) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00016 (6061 reqs/sec) | DB: 0.00028 (169%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000101)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000190)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:13:19) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "contact"=>{"these"=>"options"}, "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5262 reqs/sec) | DB: 0.00029 (153%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000179)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000110)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:13:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00035 (2832 reqs/sec) | Rendering: 0.00018 (50%) | DB: 0.00029 (81%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000177)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000155)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000243)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000189)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000220)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000172)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000244)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000218)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000216)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000180)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000199)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000183)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000217)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000111)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000727)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000265)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000432)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000420)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000505)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000147)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:15:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00236 (424 reqs/sec) | Rendering: 0.00024 (9%) | DB: 0.00327 (138%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000196)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000117)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:15:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00021 (4670 reqs/sec) | DB: 0.00031 (146%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:15:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00018 (5675 reqs/sec) | DB: 0.00021 (119%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000275)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:15:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5745 reqs/sec) | DB: 0.00038 (216%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000125)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:15:57) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00021 (4826 reqs/sec) | DB: 0.00024 (117%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000121)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000160)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:15:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00038 (2631 reqs/sec) | Rendering: 0.00019 (50%) | DB: 0.00028 (73%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000196)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000198)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000096)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000172)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000190)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000101)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000092)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000101)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000204)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000388)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000206)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000250)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000230)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000163)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000188)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000186)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000103)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000097)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000409)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000449)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000100)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000442)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000099)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000258)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000148)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:17:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00222 (450 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00255 (115%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000128)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:17:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (5102 reqs/sec) | DB: 0.00024 (124%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000235)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:17:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5841 reqs/sec) | DB: 0.00034 (196%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000247)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:17:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5777 reqs/sec) | DB: 0.00037 (214%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000123)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:17:23) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5377 reqs/sec) | DB: 0.00024 (127%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:17:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00035 (2872 reqs/sec) | Rendering: 0.00018 (51%) | DB: 0.00023 (65%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000109)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000209)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000152)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000199)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000237)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000222)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000166)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000203)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000171)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000219)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000266)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000218)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000177)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000211)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000170)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000221)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000158)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000140)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000198)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000099)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000218)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000226)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000115)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000166)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000198)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000108)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000202)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000201)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000098)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000316)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000198)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000103)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000228)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000202)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000112)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000850)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000112)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000235)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000241)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000247)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000124)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:22:58) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00245 (408 reqs/sec) | Rendering: 0.00023 (9%) | DB: 0.00256 (104%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000126)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:22:58) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00020 (5127 reqs/sec) | DB: 0.00024 (123%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000211)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:22:58) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5745 reqs/sec) | DB: 0.00031 (179%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000529)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:22:58) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00022 (4629 reqs/sec) | DB: 0.00063 (293%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000116)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:22:58) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5262 reqs/sec) | DB: 0.00022 (114%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:22:58) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00040 (2531 reqs/sec) | Rendering: 0.00022 (55%) | DB: 0.00022 (54%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000113)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000144)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000119)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000216)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000114)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000181)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000289)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000118)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000185)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000273)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000100)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000186)[0m   [0;1mROLLBACK[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000187)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000102)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000109)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000351)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000338)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000098)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000104)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000137)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000254)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000108)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000260)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:24:22) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00229 (437 reqs/sec) | Rendering: 0.00023 (10%) | DB: 0.00215 (93%) | 200 OK [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000136)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000127)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:24:22) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5236 reqs/sec) | DB: 0.00026 (137%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000104)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000105)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:24:22) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5817 reqs/sec) | DB: 0.00021 (121%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000124)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000613)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:24:22) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00017 (5745 reqs/sec) | DB: 0.00074 (423%) | 302 Found [http://test.host/contacts/create]
+  [4;36;1mSQL (0.000114)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000119)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#create (for 0.0.0.0 at 2008-07-08 12:24:22) [POST]
+  Session ID: 
+  Parameters: {"contact"=>{"these"=>"options"}, "action"=>"create", "controller"=>"contacts"}
+Redirected to http://test.host/
+Completed in 0.00019 (5184 reqs/sec) | DB: 0.00023 (120%) | 302 Found [http://test.host/contacts/create?contact%5Bthese%5D=options]
+  [4;36;1mSQL (0.000102)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000113)[0m   [0mBEGIN[0m
+
+
+Processing ContactsController#new (for 0.0.0.0 at 2008-07-08 12:24:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"contacts"}
+Rendering template within layouts/site
+Rendering contacts/new
+Completed in 0.00036 (2792 reqs/sec) | Rendering: 0.00018 (51%) | DB: 0.00022 (60%) | 200 OK [http://test.host/contact]
+  [4;36;1mSQL (0.000120)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000155)[0m   [0mBEGIN[0m
+Rendering /contacts/new.html.erb
+  [4;36;1mSQL (0.000122)[0m   [0;1mROLLBACK[0m

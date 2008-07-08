@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/../spec_helper'
 describe ContactsController do
   def mock_contact(params={})
     params = {:deliver => true, :save => true, :valid? => true}.merge(params)
-    @mock_contact ||= mock_model(Contact, params)
+    @mock_contact ||= mock('contact', params)
   end
   
   describe "on GET to new" do
