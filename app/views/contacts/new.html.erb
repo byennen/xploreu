@@ -7,19 +7,19 @@ Fill out this form and we'll get back to you shortly!</p>
 	<% form_tag '/contact/create' do %>
 	  <fieldset>
       <legend><%= @title %></legend>
-        <p><label for="name">Name:</label>
+        <p><label for="contact_name">Name</label>
         <%= text_field :contact, :name %>
         <%#= error_messages_for_attribute(@contact, :name) %></p>
 
-        <p><label for="email">Email:</label>
+        <p><label for="contact_email">Email</label>
         <%= text_field :contact, :email %>
         <%#= error_messages_for_attribute(@contact, :email) %></p>
 
-        <p><label for="phone">Phone:</label>
+        <p><label for="contact_phone">Phone</label>
         <%= text_field :contact, :phone %>
         <%#= error_messages_for_attribute(@contact, :phone) %></p>
 
-        <p><label for="message">Message:</label>
+        <p><label for="contact_message">Message</label>
         <%= text_field :contact, :message %>
         <%#= error_messages_for_attribute(@contact, :message) %></p>
 

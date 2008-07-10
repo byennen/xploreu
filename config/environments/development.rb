@@ -17,7 +17,7 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 
 ActionMailer::Base.delivery_method = :sendmail
-
-SITE="http://www.localhost:3000"
-
+# 
+# SITE="http://localhost:3000"
+# 
 CONTACT_EMAIL = "lennen@xploreu.com"
