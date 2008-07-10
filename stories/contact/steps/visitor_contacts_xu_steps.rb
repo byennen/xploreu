@@ -13,6 +13,7 @@ steps_for(:visitor_contacts_xu) do
 	  fills_in 'Name', :with => 'Lance'
     fills_in 'Email', :with => 'lance@whatever.com'
     fills_in 'Phone', :with => '555-555-1212'
+    fills_in 'Message', :with => 'I love XU'
 	  clicks_button "Submit"
   end
   

@@ -9,6 +9,7 @@ class Contact
     :message => "Email is not valid."
   validates_format_of :phone, :with => /^[0-9]{3,3}-[0-9]{3,3}-[0-9]{4,4}$/,
     :message => "Phone number is not valid (xxx-xxx-xxxx)."
+  validates_presence_of :message, :message => "Name is required."
   
   class << self
     alias_method :new_without_params, :new
