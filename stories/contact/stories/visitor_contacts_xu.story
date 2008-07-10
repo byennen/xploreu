@@ -10,3 +10,9 @@ Story: visitor contacts xu
 		And I submit the form with valid data
 		Then I should see 'Contact Message Sent'
 		
+	Scenario: invalid phone format
+		Given I am an anonymous visitor
+		When I go to the contact form
+		And I enter '123.4567' for Phone
+		And I submit the form
+		Then I should see 'Phone number is not valid'

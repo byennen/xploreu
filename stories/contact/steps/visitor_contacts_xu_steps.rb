@@ -16,6 +16,14 @@ steps_for(:visitor_contacts_xu) do
 	  clicks_button "Submit"
   end
   
+  When "I enter '$data' for $field" do |data, field|
+    fills_in field, :with => data
+  end
+  
+  When "I submit the form" do
+	  clicks_button "Submit"
+  end
+  
 	Then /I should see '(.*)'/ do |text|
 	  response.should include_text(text)
   end
