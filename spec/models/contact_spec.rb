@@ -26,4 +26,28 @@ describe Contact do
       Contact.new(:non_existent_attribute => "whatever")
     }.should raise_error(NoMethodError)
   end
+  
+  it "should have error for missing name" do
+    contact = Contact.new
+    contact.valid?
+    contact.errors.on(:name).should == 'Name is required.'
+  end
+  
+  it "should have error for missing email" do
+    contact = Contact.new
+    contact.valid?
+    contact.errors.on(:email).should == 'Email is not valid.'
+  end
+  
+  it "should have error for missing phome" do
+    contact = Contact.new
+    contact.valid?
+    contact.errors.on(:phone).should =~ /Phone number is not valid/
+  end
+  
+  it "should have error for invalid phome" do
+    contact = Contact.new(:phone => 'invalid phone number')
+    contact.valid?
+    contact.errors.on(:phone).should =~ /Phone number is not valid/
+  end
 end

@@ -16,3 +16,10 @@ Story: visitor contacts xu
 		And I enter '123.4567' for Phone
 		And I submit the form
 		Then I should see 'Phone number is not valid'
+
+	Scenario: missing name
+		Given I am an anonymous visitor
+		When I go to the contact form
+		And I enter '' for Name
+		And I submit the form
+		Then I should see 'Name is required.'

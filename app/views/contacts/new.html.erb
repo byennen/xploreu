@@ -9,19 +9,19 @@ Fill out this form and we'll get back to you shortly!</p>
       <legend><%= @title %></legend>
         <p><label for="contact_name">Name</label>
         <%= text_field :contact, :name %>
-        <%#= error_messages_for_attribute(@contact, :name) %></p>
+        <%= error_message_on(@contact, :name) %></p>
 
         <p><label for="contact_email">Email</label>
         <%= text_field :contact, :email %>
-        <%#= error_messages_for_attribute(@contact, :email) %></p>
+        <%= error_message_on(@contact, :email) %></p>
 
         <p><label for="contact_phone">Phone</label>
         <%= text_field :contact, :phone %>
-        <%#= error_messages_for_attribute(@contact, :phone) %></p>
+        <%= error_message_on(@contact, :phone) %></p>
 
         <p><label for="contact_message">Message</label>
         <%= text_field :contact, :message %>
-        <%#= error_messages_for_attribute(@contact, :message) %></p>
+        <%= error_message_on(@contact, :message) %></p>
 
         <p><%= submit_tag 'Submit', :class => "submit" %></p>
       </fieldset>
