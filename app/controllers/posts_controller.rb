@@ -7,8 +7,9 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.xml
   def index
-    #@pages, @posts = paginate(@blog.posts)
-    @pages, @posts = Blog.paginate :page => params[:page], :per_page => 10
+    # @pages, @posts = paginate(@blog.posts)
+    # @pages, @posts = Blog.paginate :page => params[:page], :per_page => 10
+    @posts = Post.paginate_by_blog_id @blog.id, :page => params[:page], :order => 'updated_at DESC'
     @title = "Blog Management"
 
     respond_to do |format|

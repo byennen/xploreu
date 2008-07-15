@@ -2,11 +2,12 @@ class ContactsController < ApplicationController
   layout  'site'
   
   def new
-    @contact = Contact.new
-    @title = "Contact"  
+    @title = "Contact"
+    @contact = Contact.new  
   end
   
   def create
+    @title = "Contact" 
     @contact = Contact.new params[:contact]
     if @contact.valid?
       @contact.deliver

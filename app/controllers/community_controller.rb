@@ -6,11 +6,11 @@ class CommunityController < ApplicationController
     @title = "Community"
     @letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
     if params[:id] 
-      @initial = params[:id] 
-      @pages, specs = paginate(:specs, 
-                               :conditions => ["last_name LIKE ?", @initial+"%"], 
-                               :order => "last_name, first_name")
-      @users = specs.collect { |spec| spec.user }
+      @initial = params[:id]
+      # @pages, specs = paginate(:specs, 
+      #                          :conditions => ["last_name LIKE ?", @initial+"%"], 
+      #                          :order => "last_name, first_name")
+      #@users = specs.collect { |spec| spec.user }
     end  
   end
 

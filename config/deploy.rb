@@ -23,7 +23,7 @@ default_run_options[:pty] = true
 
 # github clone URL
 set :repository, "git@xploreu:byennen/xploreu.git"
-# set :repository, "git@github.com:byennen/xploreu.git"
+#set :repository, "git@github.com:byennen/xploreu.git"
 
 set :deploy_vai, :remote_cache
 
@@ -31,7 +31,7 @@ set :deploy_vai, :remote_cache
 set :scm, "git"
 
 # github scm passphrase
-# set :scm_passphrase, "ilikemarley"
+#set :scm_passphrase, "ilikemarley"
 
 # Login user for ssh.
 set :remote_user, "deploy"
