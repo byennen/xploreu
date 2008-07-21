@@ -7,10 +7,13 @@ class CommunityController < ApplicationController
     @letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
     if params[:id] 
       @initial = params[:id]
+      @paginator, @specs = paginate :specs, :per_page => 5,
+                                    :conditions => ["last_name LIKE ?", @initial+"%"],
+                                    :order => 'last_name, first_name'
       # @pages, specs = paginate(:specs, 
       #                          :conditions => ["last_name LIKE ?", @initial+"%"], 
       #                          :order => "last_name, first_name")
-      #@users = specs.collect { |spec| spec.user }
+      @users = specs.collect { |spec| spec.user }
     end  
   end
 
@@ -19,7 +22,8 @@ class CommunityController < ApplicationController
     return if params[:commit].nil?
     if valid_input?
       specs = Spec.find_by_asl(params)
-      @pages, @users = paginate(specs.collect { |spec| spec.user })
+      @paginator, @users = paginate(specs.collect { |spec| spec.user })
+      #@pages, @users = paginate(specs.collect { |spec| spec.user })
     end
   end
 
@@ -40,7 +44,8 @@ class CommunityController < ApplicationController
         @users.each { |user| user.spec ||= Spec.new }      
         @users = @users.sort_by { |user| user.spec.last_name }
         
-        @pages, @users = paginate(@users)
+        @paginator, @users = paginate(@users)
+        #@pages, @users = paginate(@users)
       rescue Ferret::QueryParser::QueryParseException
         @invalid = true
       end

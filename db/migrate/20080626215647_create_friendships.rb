@@ -4,8 +4,8 @@ class CreateFriendships < ActiveRecord::Migration
       t.integer  :user_id
       t.integer  :friend_id
       t.string   :status
-      t.datetime :created_at
-      t.datetime :accepted_at
+      t.column :created_at, :datetime
+      t.column :accepted_at, :datetime
     end
   end
 
