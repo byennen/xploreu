@@ -1,24 +1,25 @@
-<p style="color:white;font-size:20;">Login or Join</p>
+<h1>Login or Join</h1>
 <% form_for :user do |form| %>  
   <%= render :partial => "user/screen_name_field_home_page", 
              :locals  => { :form => form } %> 
   <%= render :partial => "user/password_field_home_page",
              :locals  => { :form => form, :field => "password" } %>
   
-  <div style="color:white;float:left;">
+  <div style="float:left;">
     <label for="remember_me">Remember Me?:</label>
     <%= form.check_box :remember_me %>
   </div>
   
-  <div style="color:white;">  
+  <div>  
     <%= submit_tag "Login!", :class => "submit_homepage" %>
   </div>
 <% end %>
 
-<p style="color:white;font-size:10px;">  
+<br/>
+<p>  
   Forgot? <%= link_to "Remind Me!", :controller => "email", :action => "remind" %>
 </p>
 
-<p style="color:white;font-size:10px;">  
+<p >  
   Not a member?  <%= link_to "Register now!", :controller => "user", :action => "register" %> For FREE!
 </p>

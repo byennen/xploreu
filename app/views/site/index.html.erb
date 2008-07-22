@@ -1,16 +1,79 @@
 <div id="homepage">
-  
+  <h1 class="section_header">Welcome to XploreU.com</h1>
   <!-- <div><%#= render :partial => "community/search_form" %></div> -->
     
-  <!-- <div style="position:absolute;top:55px;left:30px;">
-     <%#= render :partial => 'user/login_home_page' %>
-  </div> -->
-  
+   <div id="login" >
+     <%= render :partial => 'user/login_home_page' %>
+	  <a href="#" onclick="alt()" >alt</a>
+  </div> 
+
   <!-- <div style="position:absolute;top:100px;left:620px;background:#FFFFFF;width:270px;height:150px;overflow-y:scroll;padding:5px;">
     <p style="color:blue;font-size:12px;">July 4th, 2008</p>
     <p style="font-size:12px;">Lewis and Clark, eat your heart out.  One of XU's star ambassadors, LaKase Perry, recently got back from her sponsored cross-country hike with Trek America <http://www.trekamerica.com/> . TrekAmerica sent her on a 16-day xploration of the Great Pioneer Trail, hitting up the Grand Canyon, Yosemite National Park and VEGAS, baby, Vegas!  Read about LaKase's trip on her XU <a href="http://blog.xploreu.com">blog</a>.</p>
     <p style="color:blue;font-size:12px;">July 1st, 2008</p>
     <p style="font-size:12px;">XU’s ambassador program is expanding internationally in the fall. If you’re living overseas in the fall, <a href="/contact">apply</a> to become one of our FIRST international ambassadors.</p>
   </div> -->
+
+
   
+	<div id="sub_content">
+		<ul id="sub_tabs" class="subsection_tabs">
+			<li class="tab" ><a href="#about_us"><img alt="About Us" title="About Us" src="/images/menu/bottom/tabs_01.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" ><a href="#contact"><img alt="Contact" title="Contact" src="/images/menu/bottom/tabs_02.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" ><a href="#ambassadors"><img alt="Ambassadors" title="Ambassadors" src="/images/menu/bottom/tabs_03.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" ><a href="#advertising"><img alt="Advertising" title="Advertising" src="/images/menu/bottom/tabs_04.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" ><a href="#tips"><img alt="Tips" title="Tips" src="/images/menu/bottom/tabs_05.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" ><a href="#pictures"><img alt="Pictures" title="Pictures" src="/images/menu/bottom/tabs_06.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" ><a href="#blog"><img alt="Blog" title="Blog" src="../images/menu/bottom/tabs_07.png"/></a></li>
+		</ul>
+		<div class="content">
+			<div id="about_us">
+				<div class="left">
+					<img src="/images/fish.jpg"/>
+					<p class="caption">Duis ante tortor, convallis ac, tincidunt eget, semper et, odio. Con queso sapien.</p>
+				</div>
+				<div class="right">
+					<h3>Sushi!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in risus et mauris posuere malesuada. Curabitur pellentesque magna et metus. Integer pulvinar, est sit amet laoreet vulputate, elit urna auctor neque, id semper justo risus at sapien. Quisque lacinia posuere elit. Vivamus viverra nulla interdum lectus. Duis ante tortor, convallis ac, tincidunt eget, semper et, odio. Pellentesque dui lacus, volutpat eu, volutpat ut, eleifend sit amet, sapien. Etiam at ipsum. Morbi tortor purus, congue quis, tempor eu, porttitor non, elit. In rutrum ultrices nibh. Cras hendrerit convallis tortor.</p>
+
+					<p>Nunc sem justo, condimentum hendrerit, iaculis nec, pulvinar a, nunc. Aliquam risus nulla, posuere vitae, condimentum commodo, condimentum a, urna. Etiam nisi. Sed ante ligula, sodales at, ullamcorper sit amet, bibendum id, quam. Praesent eget mauris. Mauris porttitor blandit erat. In tincidunt, eros tincidunt consectetuer porta, nibh odio mattis felis, in aliquet ipsum dui sit amet quam. Donec laoreet, sem ultrices congue iaculis, augue dolor dignissim dui, ut fermentum odio lorem adipiscing nulla. Aenean faucibus velit nec orci. Mauris lorem metus, pharetra quis, dignissim eu, ultrices ut, nisl. Aliquam nunc lacus, convallis a, adipiscing id, fringilla vel, lorem.</p>
+				</div>
+			</div>
+			<div id="contact"><p>Contact</p></div>
+			<div id="ambassadors"><p>Ambassadors</p></div>
+			<div id="advertising"><p>Advertising</p></div>
+			<div id="tips">Tips</div>
+			<div id="pictures"><p>Pictures</p></div>
+			<div id="blog"><p>Blog</p></div>
+		</div> 
+	</div>
+
+	
+		<div id="show" class="slideshow">
+	  </div>
+
+
+	<script type="text/javascript">		
+	//<![CDATA[
+	  window.addEvent('domready', function(){
+      // Load your images here
+	    var data = ["lobster.jpg", "beach.jpg", "earth.jpg", "parlaiment.jpg", "mountain.jpg", "castle.jpg"
+	    ];
+	    // Initialize the Slideshow instance
+	    var myShow = new Slideshow('show', data, { hu: 'images/frontend/slides/', height:272, width:900, duration:2000, delay:4000, loader:false });
+	  });
+		function alt(){
+			if($('login').className != 'alt'){
+				$('login').className = 'alt';
+			} else {
+				$('login').className = '';
+			}
+		}
+		
+		//
+		
+		
+	//]]>
+	</script>
+	
 </div>

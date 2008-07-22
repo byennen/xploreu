@@ -1,3 +1,4 @@
+
 #nav {
   color: black;
   font-size: 12pt;
@@ -95,7 +96,7 @@ label {
 }
 
 .submit_homepage { 
-  margin-left: 13em; 
+  margin-left: 10px; 
 }
 
 /* Debug Style */
@@ -213,4 +214,6 @@ table.users tr.odd {
   background: #eee;
 }
 
-
+.reset {
+	clear:both;
+}

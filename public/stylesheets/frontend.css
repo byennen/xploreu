@@ -5,7 +5,33 @@
 * CREATED BY: Lance Ennen *
 **********************************/
 
-html, body{margin:0;padding:0;text-align:center;font-family: sans-serif;background: #000000 url("../images/frontend/background.jpg") repeat-x;} 
+html, body{
+	font-size:10pt;
+	line-height:14pt;
+	
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family: sans-serif;
+	background: #000000 url("../images/frontend/background.jpg") repeat-x;
+	
+} 
+
+p, h3{
+	margin:0px;
+}
+
+.caption{
+	font-size:8pt;
+}
+
+.section_header {
+	font-size:20px;
+	margin: 8px 0px 0px 10px;
+	color:white;
+	position:absolute;
+	min-width:300px;
+}
  
 #pagewidth{width:930px;text-align:left;margin-left:auto;margin-right:auto;} 
  
@@ -17,7 +43,13 @@ div.top_banner{float:right;}
  
 #maincol{display:inline;position:relative;width:100%;}
 
-#homepage{background-image: url('../images/frontend/home_page_background.png');width:900px;height:636px;margin:0 auto;}
+#homepage{
+	background-image: url('../images/frontend/home_page_background.png');
+	background-repeat:no-repeat;
+	width:900px;
+	height:636px;
+	margin:0 auto;
+}
 
 #mainpage{background-color:#FFFFFF;width:900px;position:relative;margin:0 auto;top:-23px;}
  
@@ -55,3 +87,101 @@ ul.top_nav li a:hover
 /* End menu top nav - tims css*/
 
 .notice{padding-top:10px;}
+
+#sub_content{
+	left:40px;
+	position:absolute;
+	top:340px;
+/*	background-color:white;*/
+	height:283px;
+	width:613px;
+}
+
+#sub_content .content{
+	background-color:white;
+	clear:both;
+	position:relative;
+	top:-6px;
+	height:230px;
+	padding:10px;
+}
+
+#sub_content .left, #sub_content .right {
+	display:inline;
+	width:49.9%;
+	height:230px;
+	float:left;
+	overflow:auto;
+}
+
+#sub_content .left{
+/*	margin-right:10px;*/
+}
+
+#sub_content caption {
+	
+}
+
+#sub_tabs {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+#sub_tabs li{
+	display: inline;
+	float:left;
+}
+
+#sub_tabs li a img{
+	border:none;
+}
+
+.tab .active {
+	
+}
+
+#login {
+	color:white;
+	border:1px #666666 solid;
+	background-image:url(/images/frontend/transparentgrey.png);
+	position:absolute;
+	top:65px;
+	left:40px;
+	z-index:2;
+	padding:10px;
+}
+
+.alt {
+	background-image:url(/images/frontend/orangerect.png) !important;
+	background-repeat:no-repeat;
+	border:0px !important;
+}
+
+.alt a {
+	color:black !important;
+}
+
+#login p {
+	font-size:10px;
+}
+
+#login h1{
+	font-size:12px;
+	margin:0px;
+	text-transform:uppercase;
+}
+
+#login a{
+	color:#FFA451;
+	text-decoration:none;
+}
+
+#login label{
+	text-align:left;
+	width:auto;
+}
+
+#login #user_remember_me{
+		margin: 0px 10px 0px 0px !important;
+}

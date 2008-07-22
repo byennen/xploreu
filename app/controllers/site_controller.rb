@@ -3,6 +3,7 @@ class SiteController < ApplicationController
   
   def index
     @title = "Welcome"
+    @menu_tabs = ["Recent Activity", "Contact", "Networking", "Advertise", "XU Beta", "Photos", "Blog"] 
     render :layout => 'home'
   end
 
