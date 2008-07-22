@@ -22,8 +22,8 @@ default_run_options[:pty] = true
 # set :ssh_options, { :forward_agent => true }
 
 # github clone URL
-set :repository, "git@xploreu:byennen/xploreu.git"
-#set :repository, "git@github.com:byennen/xploreu.git"
+#set :repository, "git@xploreu:byennen/xploreu.git"
+set :repository, "git@github.com:byennen/xploreu.git"
 
 set :deploy_vai, :remote_cache
 
@@ -43,7 +43,7 @@ set :branch, "master"
 set :deploy_to, "/var/www/apps/#{application}"
 
 # Primary domain name of your application. Used as a default for all server roles.
-set :domain, "toraja.harrishoover.railsmachina.com"
+set :domain, "staging.harrishoover.railsmachina.com"
 
 # Rails environment. Used by application setup tasks and migrate tasks.
 set :rails_env, "production"
