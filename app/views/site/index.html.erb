@@ -18,16 +18,16 @@
   
 	<div id="sub_content">
 		<ul id="sub_tabs" class="subsection_tabs">
-			<li class="tab" ><a href="#about_us"><img alt="About Us" title="About Us" src="/images/menu/bottom/tabs_01.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
-			<li class="tab" ><a href="#contact"><img alt="Contact" title="Contact" src="/images/menu/bottom/tabs_02.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
-			<li class="tab" ><a href="#ambassadors"><img alt="Ambassadors" title="Ambassadors" src="/images/menu/bottom/tabs_03.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
-			<li class="tab" ><a href="#advertising"><img alt="Advertising" title="Advertising" src="/images/menu/bottom/tabs_04.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
-			<li class="tab" ><a href="#tips"><img alt="Tips" title="Tips" src="/images/menu/bottom/tabs_05.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
-			<li class="tab" ><a href="#pictures"><img alt="Pictures" title="Pictures" src="/images/menu/bottom/tabs_06.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
-			<li class="tab" ><a href="#blog"><img alt="Blog" title="Blog" src="../images/menu/bottom/tabs_07.png"/></a></li>
+			<li class="tab" title="about_us" ><a href="#about_us" ><img alt="About Us" title="About Us" src="/images/menu/bottom/tabs_01.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" title="contact" ><a href="#contact" ><img alt="Contact" title="Contact" src="/images/menu/bottom/tabs_02.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" title="ambassadors" ><a href="#ambassadors" ><img alt="Ambassadors" title="Ambassadors" src="/images/menu/bottom/tabs_03.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" title="advertising" ><a href="#advertising" ><img alt="Advertising" title="Advertising" src="/images/menu/bottom/tabs_04.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" title="tips" ><a href="#tips" ><img alt="Tips" title="Tips" src="/images/menu/bottom/tabs_05.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" title="pictures" ><a href="#pictures" ><img alt="Pictures" title="Pictures" src="/images/menu/bottom/tabs_06.png"/></a><img src="/images/menu/bottom/tabs_vr.png"/></li>
+			<li class="tab" title="blog"><a href="#blog" ><img alt="Blog" title="Blog" src="../images/menu/bottom/tabs_07.png"/></a></li>
 		</ul>
-		<div class="content">
-			<div id="about_us">
+		<div class="content" id="tabbed_content">
+			<div class="tab_content" id="about_us">
 				<div class="left">
 					<img src="/images/fish.jpg"/>
 					<p class="caption">Duis ante tortor, convallis ac, tincidunt eget, semper et, odio. Con queso sapien.</p>
@@ -57,8 +57,7 @@
 	//<![CDATA[
 	  window.addEvent('domready', function(){
       // Load your images here
-	    var data = ["lobster.jpg", "beach.jpg", "earth.jpg", "parlaiment.jpg", "mountain.jpg", "castle.jpg"
-	    ];
+	    var data = ["lobster.jpg", "beach.jpg", "earth.jpg", "parlaiment.jpg", "mountain.jpg", "castle.jpg"];
 	    // Initialize the Slideshow instance
 	    var myShow = new Slideshow('show', data, { hu: 'images/frontend/slides/', height:272, width:900, duration:2000, delay:4000, loader:false });
 	  });
@@ -70,8 +69,52 @@
 			}
 		}
 		
-		//
+		//initialize the tabs
+		initTabs('sub_tabs', 'tabbed_content');
+		function initTabs(tabs, contents){
+			var tab_list = $(tabs).childNodes;
+			// var tab_names = [];
+			// var tab_li = [];
+			var currTab;
+			var tab_contents = $(contents).childNodes;
+			var content_list = [];
+			
+				
+			// make list of contents
+			for(var i =0; i< tab_contents.length; i++){
+				if(tab_contents[i].childNodes[0] != null){
+					content_list.push(tab_contents[i]);
+				}
+			}
+			hideThese(content_list);
+			for(var i =0; i< tab_list.length; i++){
+				currTab = tab_list[i];
+				if(currTab.childNodes[0] != null){
+					currTab.onclick = function(){
+						// $(this.getAttribute('title')).setStyle("visibility", "visible");
+						// 						$(this.getAttribute('title')).setStyle("display", "block");
+						hideThese(content_list);
+						showThis($(this.getAttribute('title')));
+					}
+					//tab_li.push(currTab);
+					
+				}
+			}
+			hideThese(content_list);
+			showThis(content_list[0]);
+		}
 		
+		function hideThese(elements){
+			for(var j = 0; j< elements.length; j++){
+				elements[j].setStyle("visibility", "collapse");
+				elements[j].setStyle("display", "none");
+			}
+		}
+		
+		function showThis(element){
+			element.setStyle("visibility", "visible");
+			element.setStyle("display", "block");
+		}
 		
 	//]]>
 	</script>
