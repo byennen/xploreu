@@ -8,17 +8,32 @@
 html, body{
 	font-size:10pt;
 	line-height:14pt;
-	
 	margin:0;
 	padding:0;
 	text-align:center;
 	font-family: sans-serif;
-	background: #000000 url("../images/frontend/background.jpg") repeat-x;
-	
+	background: #000000 url("../images/frontend/background.jpg") repeat-x;	
 } 
 
-p, h3{
+a{
+	color:#FFA451;
+	text-decoration:none;
+}
+
+h3{
+	font-weight:bold;
+}
+
+h4{
 	margin:0px;
+}
+
+p{
+	margin-top:0px;
+}
+
+ul{
+	list-style:none;
 }
 
 .caption{
@@ -31,6 +46,7 @@ p, h3{
 	color:white;
 	position:absolute;
 	min-width:300px;
+	left:20px;
 }
  
 #pagewidth{width:930px;text-align:left;margin-left:auto;margin-right:auto;} 
@@ -94,7 +110,8 @@ ul.top_nav li a:hover
 	top:340px;
 /*	background-color:white;*/
 	height:283px;
-	width:613px;
+	width:530px;
+	overflow:hidden;
 }
 
 #sub_content .content{
@@ -108,14 +125,29 @@ ul.top_nav li a:hover
 
 #sub_content .left, #sub_content .right {
 	display:inline;
-	width:49.9%;
-	height:230px;
+	height:210px;
 	float:left;
 	overflow:auto;
 }
 
 #sub_content .left{
-/*	margin-right:10px;*/
+	width:177px;
+	margin-right:20px;
+}
+
+#sub_content .right{
+	width:59%;
+}
+
+#sub_content .photos li{
+	display:inline;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+
+#sub_content ul{
+	margin:0px;
+	padding:0px;
 }
 
 #sub_content caption {
@@ -133,8 +165,29 @@ ul.top_nav li a:hover
 	float:left;
 }
 
+#sub_tabs li:hover{
+	cursor:pointer;
+}
+
 #sub_tabs li a img{
 	border:none;
+}
+
+#random-fact{
+	position:absolute;
+	top:340px;
+	left:600px;
+	width:247px;
+	height:78px;
+	overflow:hidden;
+	background:url('/images/frontend/lightBlueRect.gif');
+	background-repeat:no-repeat;
+	padding:20px;
+}
+
+#random-fact h3{
+	color:#FFA451;
+	margin:0px;
 }
 
 .tab .active {
@@ -152,18 +205,9 @@ ul.top_nav li a:hover
 	padding:10px;
 }
 
-.alt {
-	background-image:url(/images/frontend/orangerect.png) !important;
-	background-repeat:no-repeat;
-	border:0px !important;
-}
-
-.alt a {
-	color:black !important;
-}
-
 #login p {
 	font-size:10px;
+	margin:0px;
 }
 
 #login h1{
@@ -173,7 +217,6 @@ ul.top_nav li a:hover
 }
 
 #login a{
-	color:#FFA451;
 	text-decoration:none;
 }
 
