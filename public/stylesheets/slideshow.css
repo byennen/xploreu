@@ -69,6 +69,11 @@ Notes:
 	float: left;
 	left: 0;
 	top: 0;
+}
+
+.slideshow-images a img{
+	top:0px !important;
+	left:0px !important;
 }	
 
 /**
@@ -85,6 +90,8 @@ Notes:
 }
 .slideshow a img {
 	border: 0;
+	top:0px;
+	left:0px;
 }
 
 /**
@@ -281,3 +288,30 @@ Notes:
 	background-color: #FFF;
 	opacity: .5;
 }
+
+
+
+/*//////// mini slideshow ///////*/
+.slideshow-mini{
+		height: 200px;
+		margin: 0 auto;
+		width: 267px;
+		top:0px;
+}
+
+/*.slideshow-mini{
+	height:200px;
+	left:100px;
+	margin:0 auto;
+	position:relative;
+	top:-210px;
+	width:267px;
+}*/
+
+/*.slideshow-mini img{
+	top:0px;
+	left:0px;
+	position:relative;
+}*/
+
+

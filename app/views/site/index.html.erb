@@ -47,13 +47,16 @@
 				<div id="pictures">
 					<div class="left"><img src="/images/frontend/mascot_1.gif"/></div>
 					<div>
-						<ul class="photos">
+						<div id="mini-show" class="slideshow-mini">
+								<img src="images/frontend/photos/slides/1.jpg" />
+						<!-- <ul class="photos">
 							<li><img src="/images/frontend/photos/thumbs/DSCN0830.jpg"/></li>
 							<li><img src="/images/frontend/photos/thumbs/DSCN1071.jpg"/></li>
 							<li><img src="/images/frontend/photos/thumbs/DSCN1076.jpg"/></li>
 							<li><img src="/images/frontend/photos/thumbs/DSCN1277.jpg"/></li>
 							<li><img src="/images/frontend/photos/thumbs/RSCN0731.jpg"/></li>
-						</ul>
+						</ul> -->
+						</div>
 					</div>
 				</div>
 				<div id="blog">
@@ -82,7 +85,11 @@
       // Load your images here
 	    var data = ["lobster.jpg", "beach.jpg", "earth.jpg", "parlaiment.jpg", "mountain.jpg", "castle.jpg"];
 	    // Initialize the Slideshow instance
-	    var myShow = new Slideshow('show', data, { hu: 'images/frontend/slides/', height:272, width:900, duration:2000, delay:4000, loader:false });
+	    //var myShow = new Slideshow('show', data, { hu: 'images/frontend/slides/', height:272, width:900, duration:2000, delay:4000, loader:false });
+			
+			var miniSlides = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
+			var miniSlideShow = new Slideshow('mini-show', miniSlides, { hu: 'images/frontend/photos/slides/', height:200, width:300, left:0, top:0, duration:2000, delay:4000, loader:false });
+	
 	  });
 		
 		//initialize the tabs
