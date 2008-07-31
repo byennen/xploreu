@@ -175,14 +175,14 @@ ul.top_nav li a:hover
 
 #random-fact{
 	position:absolute;
-	top:340px;
+	top:343px;
 	left:600px;
-	width:247px;
-	height:78px;
+	width:265px;
+	height:260px;
 	overflow:hidden;
-	background:url('/images/frontend/lightBlueRect.gif');
+	background:url('/images/frontend/cheap_tickets.png');
 	background-repeat:no-repeat;
-	padding:20px;
+	padding:12px 17px;
 }
 
 #random-fact h3{
