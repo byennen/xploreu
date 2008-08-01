@@ -16,7 +16,7 @@ class UserController < ApplicationController
       @user = User.new(params[:user])
       if @user.save 
         @user.login!(session)
-        flash[:notice] = "User #{@user.screen_name} created!"
+        notice_stickie("User #{@user.screen_name} created!")
         redirect_to_forwarding_url
       else
         @user.clear_password!
@@ -35,18 +35,18 @@ class UserController < ApplicationController
       if user
         user.login!(session)
         @user.remember_me? ? user.remember!(cookies) : user.forget!(cookies)
-        flash[:notice] = "User #{user.screen_name} logged in!"
+        notice_stickie("User #{user.screen_name} logged in!")
         redirect_to_forwarding_url
       else 
         @user.clear_password!
-        flash[:notice] = "Invalid screen name/password combination"
+        error_stickie("Invalid screen name/password combination")
       end
     end
   end
   
   def logout
     User.logout!(session, cookies)
-    flash[:notice] = "Logged out"
+    notice_stickie("Logged out")
     redirect_to :action => "index", :controller => "site"
   end
   
@@ -91,7 +91,7 @@ class UserController < ApplicationController
   # Try to update the user, redirecting if successful.
   def try_to_update(user, attribute)
     if user.update_attributes(params[:user])
-      flash[:notice] = "User #{attribute} updated."
+      warning_stickie("User #{attribute} updated.")
       redirect_to :action => "index"
     end
   end

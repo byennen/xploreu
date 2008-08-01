@@ -2,7 +2,7 @@ class SiteController < ApplicationController
   layout  'site', :except => [ :index ]
   
   def index
-    @title = "Welcome"
+    @title = "Welcome to XploreU"
     @menu_tabs = ["Recent Activity", "Contact", "Networking", "Advertise", "XU Beta", "Photos", "Blog"] 
     render :layout => 'home'
   end

@@ -18,3 +18,32 @@
 #BottomLeftCorner { background-image: url(../../images/corners/bottom_left.png); }
 
 .inner {background:white;padding: 5px 10px;}
+
+/*
+for the homepage
+*/
+
+.outside_home {
+	width: 930px;
+	margin:0 auto;
+	text-align: left;    
+	background: #ff9900;
+}
+
+#inner_home {
+	background:white;
+	width:930px;
+}
+
+#TopRightCorner_home, #TopLeftCorner_home {
+	height: 7px; width: 7px;
+	background-repeat: no-repeat;
+	font-size: 1px;
+}
+
+#TopRightCorner_home { background-image: url(../../images/corners/top_right.png); float: right; }
+#TopLeftCorner_home { background-image: url(../../images/corners/top_left.png); }
+
+.inside{
+	padding:10px 10px;
+}

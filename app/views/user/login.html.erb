@@ -1,4 +1,3 @@
-<h2>Log in</h2>
 <% form_for :user do |form| %>
 <fieldset>
   <legend><%= @title %></legend> 
@@ -19,7 +18,6 @@
 
 </fieldset>
 <% end %>
-s
 <p>  
   Forgot your screen name or password? 
   <%= link_to "Remind Me!", :controller => "email", :action => "remind" %>
