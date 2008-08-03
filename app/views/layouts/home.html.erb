@@ -3,7 +3,7 @@
 <html> 
 	<head> 
     <title><%= @title %>: XploreU The Student Travel-pedia</title>
-		<%= stylesheet_link_tag 'frontend', 'profile', 'corners', 'stickies' %>
+		<%= stylesheet_link_tag 'frontend', 'profile', 'corners', 'stickies', 'menu' %>
 		<link rel="stylesheet" type="text/css" href="stylesheets/slideshow.css" media="screen" />
     	<%= javascript_include_tag :defaults, 'jquery', 'jquery.innerfade' %>
 		<script type="text/javascript">
@@ -36,10 +36,8 @@
 					<% end -%>
 				</div>
 			</div>
-		    <div id="inner_home">
 			<!-- <div class="notice"><%= render_stickies %></div> -->
 				<!-- inner content here -->
-				<div class="inside_home">
 					<div style="margin:0 auto;">
 						<ul id="portfolio">					
 							<li>
@@ -63,11 +61,8 @@
 						</ul>
 					</div>
 				</div>
+				<div class="map"></div>
 				<!-- end of inner content -->
-				<div id="BottomRightCorner"></div>		
-				<div id="BottomLeftCorner"></div>
-			</div>
-		</div>
 		</div>
       	<%= render :partial => 'shared/footer' %>
 		</div>

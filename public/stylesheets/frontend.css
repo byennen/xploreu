@@ -10,7 +10,7 @@ html, body{
 	padding:0;
 	text-align:center;
 	font-family: sans-serif;
-/*	background:white;*/
+	/*background:#e6e6e6;*/
 	background: #000000 url("../images/frontend/background.jpg") repeat-x;	
 } 
 
@@ -454,4 +454,29 @@ table.users tr.odd {
 
 .reset {
 	clear:both;
+}
+
+
+.formbutton{
+cursor:pointer;
+border:outset 1px #ccc;
+background:#999;
+color:#666;
+font-weight:bold;
+padding: 1px 2px;
+margin-left: 15em; 
+background:url(/images/frontend/formbg.gif) repeat-x left top;
+}
+
+ul#portfolio{
+	margin-left:-40px;
+}
+
+.map{
+	background:url(/images/frontend/map_background.png);
+	height:335px;
+	width:930px;
+	background-repeat: no-repeat; 
+	margin-top:-8px;
+	padding:0px;
 }
