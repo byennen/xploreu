@@ -27,7 +27,7 @@ for the homepage
 	width: 930px;
 	margin:0 auto;
 	text-align: left;    
-	background: #ff9900;
+	background: #565656 url("/images/frontend/top_bar.png");
 }
 
 #inner_home {

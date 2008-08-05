@@ -11,13 +11,8 @@ html, body{
 	text-align:center;
 	font-family: sans-serif;
 	/*background:#e6e6e6;*/
-	background: #000000 url("../images/frontend/background.jpg") repeat-x;	
+	background: #87888C url("../images/frontend/greydient.gif") repeat-x;	
 } 
-
-a{
-	color:#3399CC;
-	text-decoration:none;
-}
 
 h3{
 	font-weight:bold;
@@ -52,7 +47,7 @@ ul{
  
 #header{position:relative;height:106px;background-color:transparent;width:100%;padding:20px 0px 5px;}
 
-.logo{float:left;}
+.logo{float:left;border:none;}
 
 div.top_banner{float:right;}
  
@@ -72,9 +67,9 @@ div.top_banner{float:right;}
 
 #footer_nav{color:3399CC;text-align:center;padding:5px;font-size:14px;}
 
-#footer_nav a, #footer_nav a:visited, #footer_nav a:hover, #footer_nav a:active{color: 3399CC;text-decoration: none;}
+#footer_nav a, #footer_nav a:visited, #footer_nav a:hover, #footer_nav a:active{color: #FFFFFF;text-decoration: none;}
 
-.copyright{color:white;text-align:center;font-size:10px;padding:5px;}
+.copyright{color:#CCCCCC;text-align:center;font-size:10px;padding:5px;}
  
  /* Float containers fix: */ 
 .clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
@@ -103,85 +98,16 @@ ul.top_nav li a:hover
 
 .notice{padding:.7em;}
 
-#sub_content{
-	left:40px;
+#cheap_tickets{
 	position:absolute;
-	top:340px;
-/*	background-color:white;*/
-	height:283px;
-	width:530px;
-	overflow:hidden;
-}
-
-#sub_content .content{
-	background-color:white;
-	clear:both;
-	position:relative;
-	top:-6px;
-	height:230px;
-	padding:10px;
-}
-
-#sub_content .left, #sub_content .right {
-	display:inline;
-	height:210px;
-	float:left;
-	overflow:auto;
-}
-
-#sub_content .left{
-	width:177px;
-	margin-right:20px;
-}
-
-#sub_content .right{
-	width:59%;
-}
-
-#sub_content .photos li{
-	display:inline;
-	float:left;
-	margin:0px 10px 10px 0px;
-}
-
-#sub_content ul{
-	margin:0px;
-	padding:0px;
-}
-
-#sub_content caption {
-	
-}
-
-#sub_tabs {
-	list-style:none;
-	padding:0px;
-	margin:0px;
-}
-
-#sub_tabs li{
-	display: inline;
-	float:left;
-}
-
-#sub_tabs li:hover{
-	cursor:pointer;
-}
-
-#sub_tabs li a img{
-	border:none;
-}
-
-#random-fact{
-	position:absolute;
-	top:343px;
-	left:600px;
 	width:265px;
 	height:260px;
 	overflow:hidden;
 	background:url('/images/frontend/cheap_tickets.png');
 	background-repeat:no-repeat;
 	padding:12px 17px;
+	margin-left:600px;
+	margin-top:20px;
 }
 
 #random-fact h3{
@@ -195,28 +121,34 @@ ul.top_nav li a:hover
 
 #login {
 	color:white;
-	border:1px #666666 solid;
+	border-left:1px #666666 solid;
+	border-right:1px #666666 solid;
+	/*background-image:url(/images/frontend/loginBox.png);*/
 	background-image:url(/images/frontend/transparentgrey.png);
 	position:absolute;
-	top:65px;
-	left:40px;
-	z-index:2;
+	margin-left:25px;
+	margin-top:0px;
+	z-index:100;
 	padding:10px;
+	width:190px;
+	height:261px;
 }
 
 #login p {
-	font-size:10px;
-	margin:0px;
+	font-size:12px;
+	margin:10px 0 10px;
+	text-align:left;
 }
 
 #login h1{
 	font-size:12px;
-	margin:0px;
+	margin:20px 0px 10px 0px;
 	text-transform:uppercase;
 }
 
 #login a{
 	text-decoration:none;
+	color:#3399CC;
 }
 
 #login label{
@@ -235,9 +167,8 @@ ul.top_nav li a:hover
 	height:20px;
 }
 
-
 #nav {
-  	color: black;
+  	color: white;
   	font-size: 12pt;
   	font-weight: bold;
 /*  background: #ccc;*/
@@ -256,7 +187,7 @@ ul.top_nav li a:hover
 }
 
 #bottom_nav {
-  color: #3399cc;
+  color: #CCCCCC;
   font-size: 9pt;
   font-weight: bold;
   background: trasparent;
@@ -265,12 +196,12 @@ ul.top_nav li a:hover
 }
 
 #bottom_nav a, #bottom_nav a:visited  {
-  color: #3399cc;
+  color: #CCCCCC;
   text-decoration: none;
 }
 
 #bottom_nav a:hover {
-  border-bottom: 2px dotted #3399cc;
+  border-bottom: 2px dotted #CCCCCC;
 }
 
 #content {
@@ -397,7 +328,8 @@ fieldset.debug_info {
   padding: 1em; 
   margin-bottom: 2em; 
   background-color: lightgray; 
-  font: bold smaller sans-serif; 
+  font: bold smaller sans-serif;
+  z-index:300;
 }
 
 
@@ -468,15 +400,27 @@ margin-left: 15em;
 background:url(/images/frontend/formbg.gif) repeat-x left top;
 }
 
+.formbutton_homepage{
+cursor:pointer;
+border:outset 1px #ccc;
+background:#999;
+color:#666;
+font-weight:bold;
+padding: 1px 2px;
+margin-left: 13em; 
+background:url(/images/frontend/formbg.gif) repeat-x left top;
+}
+
 ul#portfolio{
 	margin-left:-40px;
+	margin-top:0px;
 }
 
 .map{
 	background:url(/images/frontend/map_background.png);
-	height:335px;
+	height:315px;
 	width:930px;
 	background-repeat: no-repeat; 
-	margin-top:-8px;
+	margin:0px;
 	padding:0px;
 }

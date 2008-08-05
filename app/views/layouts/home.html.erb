@@ -3,20 +3,8 @@
 <html> 
 	<head> 
     <title><%= @title %>: XploreU The Student Travel-pedia</title>
-		<%= stylesheet_link_tag 'frontend', 'profile', 'corners', 'stickies', 'menu' %>
-		<link rel="stylesheet" type="text/css" href="stylesheets/slideshow.css" media="screen" />
-    	<%= javascript_include_tag :defaults, 'jquery', 'jquery.innerfade' %>
-		<script type="text/javascript">
-	   $(document).ready(
-		function(){
-			$('ul#portfolio').innerfade({
-				speed: 1000,
-				timeout: 5000,
-				type: 'sequence',
-				containerheight: '272px'
-			});	
-			});
-  		</script>
+		<%= stylesheet_link_tag 'frontend', 'profile', 'corners', 'stickies', 'menu', 'tabs', 'slideshow' %>
+		<%= javascript_include_tag :defaults, 'tabbedpane', 'slideshow' %>
 	</head>
 	<body>
 		<div id="pagewidth" >
@@ -36,32 +24,62 @@
 					<% end -%>
 				</div>
 			</div>
-			<!-- <div class="notice"><%= render_stickies %></div> -->
+			</div>
 				<!-- inner content here -->
-					<div style="margin:0 auto;">
-						<ul id="portfolio">					
-							<li>
-								<img src="images/frontend/slides/beach.jpg" alt="XploreU Student Travel" />
-							</li>
-							<li>
-								<img src="images/frontend/slides/castle.jpg" alt="XploreU Student Travel" />
-							</li>					
-							<li>
-								<img src="images/frontend/slides/earth.jpg" alt="XploreU Student Travel" />
-							</li>					
-							<li>
-								<img src="images/frontend/slides/lobster.jpg" alt="XploreU Student Travel" />
-							</li>		
-							<li>
-								<img src="images/frontend/slides/mountain.jpg" alt="XploreU Student Travel" />
-							</li>
-							<li>
-								<img src="images/frontend/slides/parlaiment.jpg" alt="XploreU Student Travel" />
-							</li>				
-						</ul>
-					</div>
+				<%= render :partial => 'shared/login_box' %>
+				<div id="rotator">
+					<img src="images/frontend/slides/xploreu_homepage.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/elephant.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/mountains.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/ocean.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/palm_mountain.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/sunset_mountains.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/sunset_trees.jpg" alt="XploreU Student Travel" />
+					<img src="images/frontend/slides/bus_ride.jpg" alt="XploreU Student Travel" />
 				</div>
-				<div class="map"></div>
+				<div class="map">
+					<%#= render :partial => 'shared/lower_nav' %>
+				    <div class="tabbed-pane">
+					<ol class="tabs">
+					  	<li><a href="#" class="active" id="about_us">About Us</a></li>
+					  	<li><a href="#" id="ambassadors">Ambassadors</a></li>
+						<li><a href="#" id="tips">Tips</a></li>
+						<li><a href="#" id="post">Post</a></li>
+						<li><a href="#" id="blog">Blog</a></li>
+						<li><a href="#" id="updates">Updates</a></li>
+					</ol>
+					<div id="MyPane_container" class="tabbed-container">
+					  <div id="MyPane_overlay" class="overlay" style="display: none">
+					    <h3>Loading&#8230;</h3>
+					  </div>
+					  <div id="MyPane" class="pane"></div>
+					</div>
+				    </div>
+				    <script type="text/javascript">
+				      new TabbedPane ('MyPane',
+					{
+					  'about_us': '<%= url_for(:controller => :site, :action => :about_us) %>',
+					  'ambassadors': '<%= url_for(:controller => :site, :action => :ambassadors) %>',
+					  'tips': '<%= url_for(:controller => :site, :action => :tips) %>',
+					  'post': '<%= url_for(:controller => :site, :action => :post) %>',
+					  'blog': '<%= url_for(:controller => :site, :action => :blog) %>',
+					  'updates': '<%= url_for(:controller => :site, :action => :updates) %>'
+					},
+					{
+					  onClick: function(){
+					    $("MyPane_overlay").show();
+					  },
+					  onSuccess: function(){
+					    $("MyPane_overlay").hide();
+					  }
+					});
+				    </script>
+					<!-- <div id="cheap_tickets">
+									<script src="http://ad.linksynergy.com/fs-bin/show?id=GCILbQuhnvE&bids=130340.5740&catid=54&gridnum=14&type=14&subid=0"> </script>
+									<noscript><a href="http://click.linksynergy.com/fs-bin/click?id=GCILbQuhnvE&offerid=130340&type=4&subid=">
+									<img src="http://ad.linksynergy.com/fs-bin/show?id=GCILbQuhnvE&bids=130340&subid=&type=4&gridnum=14"></a></noscript>
+								</div> -->
+				</div>
 				<!-- end of inner content -->
 		</div>
       	<%= render :partial => 'shared/footer' %>

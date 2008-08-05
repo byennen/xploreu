@@ -1,0 +1,26 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#rotator
+{
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	width: 930px;
+	height: 281px;
+	background:#000000;
+}
+
+#rotator img
+{
+	width: 930px;
+	height: 281px;
+}
+
+p
+{
+	text-align: center;
+}

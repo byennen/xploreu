@@ -1,8 +1,29 @@
 class UserController < ApplicationController
   include ApplicationHelper
-  layout  'site'
+  layout  'site', :except => [ :hom ]
   helper :profile, :avatar
   before_filter :protect, :only => [:index, :edit]
+  
+  def home
+    @title = "Welcome to XploreU"
+    render :layout => 'home'
+    if request.get?    
+      @user = User.new(:remember_me => remember_me_string)
+    elsif param_posted?(:user)
+      @user = User.new(params[:user])
+      user = User.find_by_screen_name_and_password(@user.screen_name,
+                                                   @user.password) 
+      if user
+        user.login!(session)
+        @user.remember_me? ? user.remember!(cookies) : user.forget!(cookies)
+        notice_stickie("User #{user.screen_name} logged in!")
+        # redirect_to :action => "index", :controller => "user"
+      else 
+        @user.clear_password!
+        error_stickie("Invalid screen name/password combination")
+      end
+    end
+  end
   
   def index
     @title = "XploreU User Hub"
@@ -47,7 +68,7 @@ class UserController < ApplicationController
   def logout
     User.logout!(session, cookies)
     notice_stickie("Logged out")
-    redirect_to :action => "index", :controller => "site"
+    redirect_to :action => "home", :controller => "user"
   end
   
   # Edit the user's basic info.
@@ -79,7 +100,7 @@ class UserController < ApplicationController
       session[:protected_page] = nil
       redirect_to redirect_url
     else
-      redirect_to :action => "index"
+      redirect_to :controller => "user", :action => "index"
     end
   end
   

@@ -1,12 +1,7 @@
 class SiteController < ApplicationController
-  layout  'site', :except => [ :index ]
+  layout  'site', :except => [ :about_us, :ambassadors, :tips, :pictures, :post, :blog, :updates ]
   
-  def index
-    @title = "Welcome to XploreU"
-    @menu_tabs = ["Recent Activity", "Contact", "Networking", "Advertise", "XU Beta", "Photos", "Blog"] 
-    render :layout => 'home'
-  end
-
+  ##pages##
   def xplore
     @title = "Xplore"
   end
@@ -23,10 +18,6 @@ class SiteController < ApplicationController
     @title = "Forums"
   end
   
-  def about
-    @title = "About"
-  end
-  
   def terms_and_conditions
     @title = "Terms and Conditions"
   end
@@ -34,5 +25,27 @@ class SiteController < ApplicationController
   def help
     @title = "Help"
   end
+  
+  ##tabs##
+  def about_us
+  end
+  
+  def ambassadors
+  end
 
+  def tips
+  end
+  
+  def pictures
+  end
+  
+  def post
+  end
+  
+  def blog
+  end
+  
+  def updates
+  end
+  
 end

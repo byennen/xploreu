@@ -1,0 +1,31 @@
+<div id="login">
+	
+	<p id="tagline">The Student Travel-pedia<br/>
+		 Create for Students, by Students!
+	</p>
+	
+	<h1>Login or Join</h1>
+	<% form_for :user do |form| %>  
+	  <%= render :partial => "user/screen_name_field_home_page", 
+	             :locals  => { :form => form } %> 
+	  <%= render :partial => "user/password_field_home_page",
+	             :locals  => { :form => form, :field => "password" } %>
+
+	  <div style="float:left;">
+	    <label for="remember_me">Remember Me?:</label>
+	    <%= form.check_box :remember_me %>
+	  </div>
+
+	  <div>  
+	    <%= submit_tag "Login!", :class => "formbutton_homepage" %>
+	  </div>
+	<% end %>
+
+	<p>  
+	  Forgot? <%= link_to "Remind Me!", :controller => "email", :action => "remind" %>
+	</p>
+
+	<p>  
+	  Not a member? <%= link_to "Register now!", :controller => "user", :action => "register" %>
+	</p>
+</div>

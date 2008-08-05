@@ -1,0 +1,78 @@
+.tabbed-pane * {
+	margin: 0;
+	padding: 0;
+}
+.tabbed-pane {
+	width: 430px;
+	height:256px;
+	padding: 30px 0px 0px 200px;
+	margin:0px 20px 20px;
+	background-image:url("/images/frontend/subcontent-background.png");
+	background-repeat : no-repeat;
+}
+.tabbed-pane .tabs {
+	list-style: none;
+	clear: both;
+	float: left;/**/
+	margin-bottom: -1px;
+}
+.tabbed-pane .tabs li a.active /*verdecito*/
+{
+	background: #565656 url("/images/frontend/top_bar.png");
+	/*border-bottom: 1px solid white;*/
+	color: #3399CC;
+	text-decoration: none;
+}
+.tabbed-pane .tabs li {
+	float: left;
+	margin: 0 3px 0 0;
+}
+
+.tabbed-pane .tabs li a {
+	color: #ffffff;
+	display: block;
+	padding: 5px;
+	background: #565656 url("/images/frontend/top_bar.png");
+	text-decoration: none;
+	/*border-color: #333;
+	border-style: solid;
+	border-width: 1px;*/
+}
+.tabbed-pane .pane {
+	/*border: 1px solid #E7E8CE; /*beigito*/*/
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	clear: both;
+	/*height: 100%;*/
+}
+.tabbed-container {
+	position: relative;
+	clear: both;
+	min-height: 220px;
+	background-image:url("/images/frontend/tab_background.png");
+	color:#FFFFFF;
+}
+.tabbed-container .overlay {
+	position: absolute;
+	width: 430px;
+	height: 100%;
+	clear: both;
+	/*border: 1px solid #333;*/
+	padding: 5px;
+	top: 0;
+	left: 0;
+	background:#333333 url(/images/spinner.gif) center center no-repeat;
+	text-align: center;
+	z-index: 100;
+	color: #3399CC;
+}
+.tabs{
+	padding-left:20px;	
+}
+
+.a{
+	text-decoration:none;
+	color:#3399CC;
+}
