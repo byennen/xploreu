@@ -3,8 +3,13 @@
 <html> 
 	<head> 
     <title><%= @title %>: XploreU The Student Travel-pedia</title>
-		<%= stylesheet_link_tag 'frontend', 'profile', 'corners', 'stickies', 'menu', 'tabs', 'slideshow' %>
-		<%= javascript_include_tag :defaults, 'tabbedpane', 'slideshow' %>
+		<%= stylesheet_link_tag 'frontend', 'profile', 'corners', 'stickies', 'tabs', 'slideshow', 'niftyCorners' %>
+		<%= javascript_include_tag :defaults, 'tabbedpane', 'slideshow', 'niftycube' %>
+		<script type="text/javascript">
+		window.onload=function(){
+		Nifty("ul#nav a","small transparent top");
+		}
+		</script>
 	</head>
 	<body>
 		<div id="pagewidth" >
@@ -40,14 +45,14 @@
 				<div class="map">
 					<%#= render :partial => 'shared/lower_nav' %>
 				    <div class="tabbed-pane">
-					<ol class="tabs">
+					<ul class="tabs">
 					  	<li><a href="#" class="active" id="about_us">About Us</a></li>
 					  	<li><a href="#" id="ambassadors">Ambassadors</a></li>
 						<li><a href="#" id="tips">Tips</a></li>
 						<li><a href="#" id="post">Post</a></li>
 						<li><a href="#" id="blog">Blog</a></li>
 						<li><a href="#" id="updates">Updates</a></li>
-					</ol>
+					</ul>
 					<div id="MyPane_container" class="tabbed-container">
 					  <div id="MyPane_overlay" class="overlay" style="display: none">
 					    <h3>Loading&#8230;</h3>

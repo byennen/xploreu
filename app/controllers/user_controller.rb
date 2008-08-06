@@ -7,22 +7,22 @@ class UserController < ApplicationController
   def home
     @title = "Welcome to XploreU"
     render :layout => 'home'
-    if request.get?    
-      @user = User.new(:remember_me => remember_me_string)
-    elsif param_posted?(:user)
-      @user = User.new(params[:user])
-      user = User.find_by_screen_name_and_password(@user.screen_name,
-                                                   @user.password) 
-      if user
-        user.login!(session)
-        @user.remember_me? ? user.remember!(cookies) : user.forget!(cookies)
-        notice_stickie("User #{user.screen_name} logged in!")
-        # redirect_to :action => "index", :controller => "user"
-      else 
-        @user.clear_password!
-        error_stickie("Invalid screen name/password combination")
-      end
-    end
+    # if request.get?    
+    #   @user = User.new(:remember_me => remember_me_string)
+    # elsif param_posted?(:user)
+    #   @user = User.new(params[:user])
+    #   user = User.find_by_screen_name_and_password(@user.screen_name,
+    #                                                @user.password) 
+    #   if user
+    #     user.login!(session)
+    #     @user.remember_me? ? user.remember!(cookies) : user.forget!(cookies)
+    #     notice_stickie("User #{user.screen_name} logged in!")
+    #     # redirect_to :action => "index", :controller => "user"
+    #   else 
+    #     @user.clear_password!
+    #     error_stickie("Invalid screen name/password combination")
+    #   end
+    # end
   end
   
   def index
