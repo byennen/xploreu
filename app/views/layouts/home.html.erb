@@ -43,7 +43,9 @@
 					<img src="images/frontend/slides/bus_ride.jpg" alt="XploreU Student Travel" />
 				</div>
 				<div class="map">
-					<%#= render :partial => 'shared/lower_nav' %>
+					<div id="fact">
+						<h3>Random Travel Fact</h3><p>In Scotland, it is illegal to be a drunk in possession of a cow.</p>
+					</div>
 				    <div class="tabbed-pane">
 					<ul class="tabs">
 					  	<li><a href="#" class="active" id="about_us">About Us</a></li>
@@ -55,7 +57,6 @@
 					</ul>
 					<div id="MyPane_container" class="tabbed-container">
 					  <div id="MyPane_overlay" class="overlay" style="display: none">
-					    <h3>Loading&#8230;</h3>
 					  </div>
 					  <div id="MyPane" class="pane"></div>
 					</div>
@@ -79,6 +80,11 @@
 					  }
 					});
 				    </script>
+					<!-- <div id="random_fact">
+							<h3>Random Travel Fact</h3><br/>
+							<p>In Scotland, it is illegal to be a drunk in possession of a cow.</p>
+						</div> -->
+				
 					<!-- <div id="cheap_tickets">
 									<script src="http://ad.linksynergy.com/fs-bin/show?id=GCILbQuhnvE&bids=130340.5740&catid=54&gridnum=14&type=14&subid=0"> </script>
 									<noscript><a href="http://click.linksynergy.com/fs-bin/click?id=GCILbQuhnvE&offerid=130340&type=4&subid=">

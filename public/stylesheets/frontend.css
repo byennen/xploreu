@@ -98,21 +98,36 @@ ul.top_nav li a:hover
 
 .notice{padding:.7em;}
 
-#cheap_tickets{
-	position:absolute;
-	width:265px;
-	height:260px;
-	overflow:hidden;
-	background:url('/images/frontend/cheap_tickets.png');
-	background-repeat:no-repeat;
-	padding:12px 17px;
-	margin-left:600px;
-	margin-top:20px;
+#fact{
+	width:100%;
+	height:30px;
+	background:url(/images/frontend/transparentgrey.png);
+	margin:0px;
 }
 
-#random-fact h3{
+#random_fact{
+	background:transparent url(/images/frontend/random_fact.png) no-repeat scroll 0 0;
+	clear:both;
+	float:right;
+	height:226px;
+	width:226px;
+	margin-top:-276px;
+	overflow:hidden;
+	padding:12px 12px;
+}
+
+#fact h3{
 	color:#FFA451;
 	margin:0px;
+	text-align:left;
+	padding:5px 0px 0px 40px;
+	float:left;
+}
+
+#fact p{
+	color:#ffffff;
+	padding:7px 0px 0px 0px;
+	text-align:center;
 }
 
 .tab .active {
@@ -167,7 +182,7 @@ ul.top_nav li a:hover
 	height:20px;
 }
 
-/*#nav {
+#nav {
   	color: white;
   	font-size: 12pt;
   	font-weight: bold;
@@ -183,7 +198,7 @@ ul.top_nav li a:hover
 #nav a:hover {
   border-bottom: 2px dotted white;
 }
-*/
+
 #bottom_nav {
   color: #CCCCCC;
   font-size: 9pt;
