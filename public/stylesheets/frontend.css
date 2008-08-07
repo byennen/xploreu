@@ -117,15 +117,15 @@ ul.top_nav li a:hover
 }
 
 #fact h3{
-	color:#FFA451;
+	color:#ff9900;
 	margin:0px;
 	text-align:left;
 	padding:5px 0px 0px 40px;
 	float:left;
 }
 
-#fact p{
-	color:#ffffff;
+.fact_text{
+	color:#c0ff00;
 	padding:7px 0px 0px 0px;
 	text-align:center;
 }

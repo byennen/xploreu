@@ -45,7 +45,22 @@
 				</div>
 				<div class="map">
 					<div id="fact">
-						<h3>Random Travel Fact</h3><p>In Scotland, it is illegal to be a drunk in possession of a cow.</p>
+						<h3>Random Travel Fact</h3>
+						<script type="text/javascript">
+						var imgsa = new Array("The average number of people airborne over the US any given hour: 61,000","In North Dakota beer & pretzels can't be served at the same time in any bar or restaurant.","In Scotland it is illegal to be a drunk in possession of a cow.","In Alaska it is illegal to push a live moose out of a moving airplane.","In Connecticut you are not allowed to walk across a street on your hands.","In Florida it is illegal to sing in a public place while attired in a swimsuit.","In Florida any form of sexual contact other than missionary position is a misdomeanor.","In Iowa kisses may last for as much as, but no more than, five minutes.","In New York a fine of $25 can be levied for flirting.");
+						var alta = new Array();
+						var currentAda = 0;
+						var imgCta = 10;
+						function cyclea() {
+						  if (currentAda == imgCta) {
+						    currentAda = 0;
+						  }
+						document.getElementById('adLinka').innerHTML = imgsa[currentAda];
+						  currentAda++;
+						}
+						  window.setInterval("cyclea()",10000);
+						</script>
+						<div class="fact_text" id="adLinka">The average number of people airborne over the US any given hour: 61,000</div>
 					</div>
 				    <div class="tabbed-pane">
 					<ul class="tabs">
@@ -100,4 +115,3 @@
     	</noscript>
 	</body>
 </html>
-
