@@ -19,17 +19,18 @@
 	    <div class="outside_home">
       		<div id="TopRightCorner_home"></div>		
 			<div id="TopLeftCorner_home"></div>
-			<div id="top_bar">
-				<div style="float:left;"><b><%= @title %></b></div>
-				<div id="nav">
-					<% if logged_in? -%>
-					<%= nav_link "Profile", "user", "index" %> |
-					<%= nav_link "Logout", "user", "logout" %> 
-					<% else -%>
-					<% end -%>
+				<div id="top_bar">
+					<div style="float:left;"><b><%= @title %></b></div>
+					<div id="nav">
+						<% if logged_in? -%>
+						<%= nav_link "Profile", "user", "index" %> |
+						<%= nav_link "Logout", "user", "logout" %> 
+						<% else -%>
+						<% end -%>
+					</div>
 				</div>
-			</div>
-			</div>
+		    <div id="inner_home">
+			<!-- <div class="notice"><%= render_stickies %></div> -->
 				<!-- inner content here -->
 				<%= render :partial => 'shared/login_box' %>
 				<div id="rotator">
@@ -80,19 +81,14 @@
 					  }
 					});
 				    </script>
-					<!-- <div id="random_fact">
-							<h3>Random Travel Fact</h3><br/>
-							<p>In Scotland, it is illegal to be a drunk in possession of a cow.</p>
-						</div> -->
-				
-					<!-- <div id="cheap_tickets">
-									<script src="http://ad.linksynergy.com/fs-bin/show?id=GCILbQuhnvE&bids=130340.5740&catid=54&gridnum=14&type=14&subid=0"> </script>
-									<noscript><a href="http://click.linksynergy.com/fs-bin/click?id=GCILbQuhnvE&offerid=130340&type=4&subid=">
-									<img src="http://ad.linksynergy.com/fs-bin/show?id=GCILbQuhnvE&bids=130340&subid=&type=4&gridnum=14"></a></noscript>
-								</div> -->
 				</div>
-				<!-- end of inner content -->
+				<%= render :partial => 'shared/share_with_friends' %>
+				<div id="BottomRightCorner"></div>		
+				<div id="BottomLeftCorner"></div>
+			</div>
 		</div>
+		</div>
+		<!-- end of inner content -->
       	<%= render :partial => 'shared/footer' %>
 		</div>
 		<%= render :partial => 'shared/debug' %>

@@ -437,3 +437,17 @@ ul#portfolio{
 	margin:0px;
 	padding:0px;
 }
+
+/*  ----------------bottom banner---------------------- */ 
+div#bottom_banner{clear:left;padding:20px 10px;margin:auto 0px;height:60px;}
+
+div.bottom_left_banner{float:left;}
+
+div.bottom_right_banner{float:right;}
+
+/*  ----------------shared links---------------------- */ 
+#bookmark-links { clear: both; padding: 12px 6px 8px 0; margin: 0 4px; border-top: 1px dotted #ccc; text-align: right; height: 19px; } 
+
+#bookmark-links span { color: #999; font-size: 10px; vertical-align: top; margin-right: 3px; } 
+
+#bookmark-links img { margin: -5px 3px 0 0; border:none;}
