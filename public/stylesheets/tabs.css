@@ -2,44 +2,89 @@
 	margin: 0;
 	padding: 0;
 }
+
 .tabbed-pane {
+	background-image:url(/images/frontend/subcontent-background.png);
+	background-repeat:no-repeat;
+	height:256px;
+	margin:20px;
+	padding:0px 0px 0px 50px;
+	width:670px;
+}
+
+/*.tabbed-pane {
 	width: 670px;
 	height:256px;
 	padding: 15px 0px 0px 200px;
 	margin:0px 20px 20px;
 	background-image:url("/images/frontend/subcontent-background.png");
 	background-repeat : no-repeat;
-}
+}*/
+
 .tabbed-pane .tabs {
+	clear:both;
+	float:left;
+	font-size:14px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-bottom:-1px;
+	padding-top:3px;
+	margin-left:5px;
+}
+
+/*.tabbed-pane .tabs {
 	list-style: none;
 	clear: both;
-	float: left;/**/
+	float: left;
 	margin-bottom: -1px;
+}*/
+
+.tabbed-pane .tabs li a.active
+{
+	color:#3399CC;
+	text-decoration:none;
+	display:inline;
 }
-.tabbed-pane .tabs li a.active /*verdecito*/
+
+.tabbed-pane .tabs li img{
+	display:inline;
+	vertical-align:middle;
+}
+
+/*.tabbed-pane .tabs li a.active 
 {
 	background: #565656;
-	/*border-bottom: 1px solid white;*/
 	color: #3399CC;
 	text-decoration: none;
 	border: 1px solid #000000;
-}
+}*/
+
+
 .tabbed-pane .tabs li {
 	float: left;
 	margin: 0 3px 0 0;
+	vertical-align:middle;
 }
 
 .tabbed-pane .tabs li a {
+	color:#444444;
+/*	display:block;*/
+	padding:5px;
+	text-decoration:none;
+}
+
+
+/*.tabbed-pane .tabs li a {
 	color: #ffffff;
 	display: block;
 	padding: 5px;
 	background: #565656;
 	text-decoration: none;
 	border: 1px solid #000000;
-	/*border-color: #333;
-	border-style: solid;
-	border-width: 1px;*/
-}
+}*/
+
+
 .tabbed-pane .pane {
 	padding:15px;
 	clear: both;
@@ -48,10 +93,17 @@
 .tabbed-container {
 	position: relative;
 	clear: both;
-	min-height: 210px;
-	background:transparent url(/images/frontend/transparentgrey.png) repeat scroll 0 0;
-	color:#FFFFFF;
-	border: 1px solid #000000;
+/*	min-height: 210px;*/
+/*	background:transparent url(/images/frontend/transparentgrey.png) repeat scroll 0 0;*/
+	color:#444444;
+/*	border: 1px solid #000000;*/
+	top:10px;
+	left:130px;
+	width: 300px;
+	height:200px;
+	overflow:auto;
+  font-size:12px;
+	line-height:16px;
 }
 .tabbed-container .overlay {
 	position: absolute;

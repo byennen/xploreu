@@ -134,18 +134,20 @@ ul.top_nav li a:hover
 	
 }
 
+/*********** login ************/
+
 #login {
 	color:white;
 	border-left:1px #666666 solid;
 	border-right:1px #666666 solid;
-	/*background-image:url(/images/frontend/loginBox.png);*/
-	background-image:url(/images/frontend/transparentgrey.png);
+	background-image:url(/images/frontend/loginBox.png);
+	/*background-image:url(/images/frontend/transparentgrey.png);*/
 	position:absolute;
-	margin-left:25px;
+	margin-left:40px;
 	margin-top:0px;
 	z-index:100;
 	padding:10px;
-	width:190px;
+	width:168px;
 	height:261px;
 }
 
@@ -168,12 +170,33 @@ ul.top_nav li a:hover
 
 #login label{
 	text-align:left;
+	font-size:12px;
+	margin-right:12px;
 	width:auto;
 }
 
-#login #user_remember_me{
-		margin: 0px 10px 0px 0px !important;
+#login input[type="text"], #login input[type="password"]{
+	width:162px;
 }
+
+#login input[type="submit"]{
+	margin-left:12px;
+	display:inline;
+	width:40px;
+}
+
+/*#login #user_remember_me{
+		margin: 0px 10px 0px 0px !important;
+}*/
+
+#login #tagline {
+	font-size:14px;
+	font-style:italic;
+	line-height:18px;
+	margin:30px 0px 10px 0px;
+}
+
+/*********** end login ************/
 
 #top_bar{
 	font-size:25px;
@@ -430,7 +453,7 @@ ul#portfolio{
 }
 
 .map{
-	background:url(/images/frontend/map_background.png);
+	background:url(/images/frontend/map_background.gif);
 	height:315px;
 	width:930px;
 	background-repeat: no-repeat; 
