@@ -1,5 +1,5 @@
 class SiteController < ApplicationController
-  layout  'site', :except => [ :about_us, :ambassadors, :tips, :pictures, :post, :blog, :updates ]
+  layout  'site', :except => [ :hot_topics, :ambassadors, :tips, :pictures, :post, :blog, :updates ]
   
   ##pages##
   def xplore
@@ -18,6 +18,10 @@ class SiteController < ApplicationController
     @title = "Forums"
   end
   
+  def about_us
+    @title = "About XploreU"
+  end
+  
   def terms_and_conditions
     @title = "Terms and Conditions"
   end
@@ -26,8 +30,16 @@ class SiteController < ApplicationController
     @title = "Help"
   end
   
+  def hot_topics_info
+    @title = "Hot Topics"
+  end
+  
+  def life_saving_tips
+    @title = "Life Saving Tips"
+  end
+  
   ##tabs##
-  def about_us
+  def hot_topics
   end
   
   def ambassadors
@@ -37,9 +49,6 @@ class SiteController < ApplicationController
   end
   
   def pictures
-  end
-  
-  def post
   end
   
   def blog
