@@ -474,3 +474,7 @@ div.bottom_right_banner{float:right;}
 #bookmark-links span { color: #999; font-size: 10px; vertical-align: top; margin-right: 3px; } 
 
 #bookmark-links img { margin: -5px 3px 0 0; border:none;}
+
+/*  ----------------home video---------------------- */ 
+#home_video {float:right;margin:25px 40px;}
+

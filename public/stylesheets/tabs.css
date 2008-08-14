@@ -9,7 +9,8 @@
 	height:256px;
 	margin:20px;
 	padding:0px 0px 0px 50px;
-	width:670px;
+	/*width:670px;*/
+	float:left;
 }
 
 /*.tabbed-pane {
