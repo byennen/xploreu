@@ -3,6 +3,10 @@ class User < ActiveRecord::Base
   has_one :spec
   has_one :faq
   has_one :blog
+  has_many :topics
+  
+  has_many :forum_posts
+  
   has_many :comments, 
            :order => "created_at DESC", 
            :dependent => :destroy
